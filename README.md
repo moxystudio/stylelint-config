@@ -59,3 +59,8 @@ If a CSS file is strictly associated with a JS file, it should follow the name o
     transition: color 0.2s ease-out;  /* Inline comment */
 }
 ```
+
+
+## License
+
+[MIT License](http://opensource.org/licenses/MIT)
