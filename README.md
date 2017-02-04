@@ -1,5 +1,7 @@
 # stylelint-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/moxystudio/stylelint-config.svg)](https://greenkeeper.io/)
+
 MOXY [stylelint](http://eslint.org/) configuration to be used across projects.
 
 
