@@ -1,0 +1,10 @@
+{
+    "extends": [
+        "eslint-config-moxy/es5.js",
+        "eslint-config-moxy/addons/node.js"
+    ],
+    "rules": {
+        // consistency for this project
+        "quote-props": [2, "always"]
+    }
+}

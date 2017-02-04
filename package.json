@@ -1,0 +1,31 @@
+{
+  "name": "stylelint-config-moxy",
+  "description": "MOXY stylelint configuration to be used across projects",
+  "version": "0.1.0",
+  "keywords": [
+    "stylelint-config",
+    "stylelintconfig",
+    "stylelint",
+    "css",
+    "lint",
+    "linter",
+    "style"
+  ],
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint '{*.js,rules/**/*.js}'"
+  },
+  "author": "André Cruz <andre@moxy.studio>",
+  "homepage": "https://github.com/moxystudio/stylelint-config",
+  "bugs": "https://github.com/moxystudio/stylelint-config/issues",
+  "repository": "git@github.com:moxystudio/stylelint-config.git",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-config-suitcss": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-moxy": "^1.0.0",
+    "eslint": "^3.9.1"
+  }
+}
