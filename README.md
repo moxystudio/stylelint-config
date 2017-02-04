@@ -1,6 +1,18 @@
 # stylelint-config
 
-MOXY [stylelint](http://eslint.org/) configuration to be used across projects.
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
+
+[npm-url]:https://npmjs.org/package/stylelint-config-moxy
+[downloads-image]:http://img.shields.io/npm/dm/stylelint-config-moxy.svg
+[npm-image]:http://img.shields.io/npm/v/stylelint-config-moxy.svg
+[travis-url]:https://travis-ci.org/moxystudio/stylelint-config
+[travis-image]:http://img.shields.io/travis/moxystudio/stylelint-config/master.svg
+[david-dm-url]:https://david-dm.org/moxystudio/stylelint-config
+[david-dm-image]:https://img.shields.io/david/moxystudio/stylelint-config.svg
+[david-dm-dev-url]:https://david-dm.org/moxystudio/stylelint-config#info=devDependencies
+[david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/stylelint-config.svg
+
+MOXY [stylelint](http://stylelint.org/) configuration to be used across projects.
 
 
 ## Installation
