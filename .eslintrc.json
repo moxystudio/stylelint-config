@@ -1,4 +1,5 @@
 {
+    "root": true,
     "extends": [
         "eslint-config-moxy/es5.js",
         "eslint-config-moxy/addons/node.js"
