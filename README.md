@@ -58,6 +58,12 @@ If a CSS file is strictly associated with a JS file, it should follow the name o
     background: red;
     transition: color 0.2s ease-out;  /* Inline comment */
 }
+
+/*
+   Multi
+   line
+   comment
+*/
 ```
 
 
