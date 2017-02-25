@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint '{*.js,rules/**/*.js}'"
+    "lint": "eslint '{*.js,rules/**/*.js,test/**/*.js}' && jest"
   },
   "author": "André Cruz <andre@moxy.studio>",
   "homepage": "https://github.com/moxystudio/stylelint-config",
@@ -22,10 +22,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "stylelint-config-suitcss": "^9.0.0"
+    "stylelint-config-suitcss": "^9.0.0",
+    "stylelint-order": "^0.3.0"
   },
   "devDependencies": {
+    "eslint": "^3.9.1",
     "eslint-config-moxy": "^1.0.0",
-    "eslint": "^3.9.1"
+    "jest": "^19.0.2",
+    "stylelint": "^7.9.0"
   }
 }
