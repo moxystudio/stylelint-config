@@ -22,7 +22,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "stylelint-config-suitcss": "^8.0.0"
+    "stylelint-config-suitcss": "^9.0.0"
   },
   "devDependencies": {
     "eslint-config-moxy": "^1.0.0",
