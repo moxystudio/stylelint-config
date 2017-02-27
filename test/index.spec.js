@@ -24,7 +24,9 @@ function runStylelintOnBadFiles() {
 
         output.forEach((entry) => {
             const expected = require(entry.source.replace(/\.css$/, '.warns.json'));  // eslint-disable-line global-require
-            const actual = entry.warnings.map((warn) => ({ rule: warn.rule, severity: warn.severity }));
+            const actual = entry.warnings
+                .sort((warn1, warn2) => warn1.line - warn2.line)
+                .map((warn) => ({ rule: warn.rule, severity: warn.severity }));
 
             expect(actual).toEqual(expected);
         });

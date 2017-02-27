@@ -12,47 +12,47 @@
         "severity": "error"
     },
     {
+        "rule": "at-rule-empty-line-before",
+        "severity": "error"
+    },
+    {
+        "rule": "rule-empty-line-before",
+        "severity": "error"
+    },
+    {
+        "rule": "at-rule-empty-line-before",
+        "severity": "error"
+    },
+    {
+        "rule": "comment-empty-line-before",
+        "severity": "error"
+    },
+    {
+        "rule": "rule-empty-line-before",
+        "severity": "error"
+    },
+    {
+        "rule": "comment-empty-line-before",
+        "severity": "error"
+    },
+    {
+        "rule": "rule-empty-line-before",
+        "severity": "error"
+    },
+    {
+        "rule": "comment-empty-line-before",
+        "severity": "error"
+    },
+    {
+        "rule": "rule-empty-line-before",
+        "severity": "error"
+    },
+    {
         "rule": "comment-empty-line-before",
         "severity": "error"
     },
     {
         "rule": "comment-empty-line-before",
-        "severity": "error"
-    },
-    {
-        "rule": "comment-empty-line-before",
-        "severity": "error"
-    },
-    {
-        "rule": "comment-empty-line-before",
-        "severity": "error"
-    },
-    {
-        "rule": "comment-empty-line-before",
-        "severity": "error"
-    },
-    {
-        "rule": "rule-empty-line-before",
-        "severity": "error"
-    },
-    {
-        "rule": "rule-empty-line-before",
-        "severity": "error"
-    },
-    {
-        "rule": "rule-empty-line-before",
-        "severity": "error"
-    },
-    {
-        "rule": "rule-empty-line-before",
-        "severity": "error"
-    },
-    {
-        "rule": "rule-empty-line-before",
-        "severity": "error"
-    },
-    {
-        "rule": "rule-empty-line-before",
         "severity": "error"
     }
 ]

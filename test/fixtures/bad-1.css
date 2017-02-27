@@ -1,6 +1,9 @@
 @import "foo.css";
 @import "bar.css";
 @mixin foo .foo;
+
+@mixin bar .foo;
+
 .foo {
 
     @mixin foo;
@@ -14,8 +17,10 @@
     .foo {
         font-size: 15px;
     }
+}
+@media (width <= 400px) {
     .foo {
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 /* ==========================================================================
@@ -33,7 +38,8 @@
 .tags {
     /* Line comment */
     background: red;
-    /* Line comment  2 */
+    /* Line comment 2 */
+    /* Line comment 2.1 */
     transition: color 0.2s ease-out;  /* Inline comment */
 }
 /*
