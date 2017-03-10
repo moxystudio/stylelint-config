@@ -100,6 +100,8 @@ module.exports = {
             // text
             {
                 'properties': [
+                    'color',
+
                     'font',
                     'font-family',
                     'font-variant',
@@ -110,8 +112,6 @@ module.exports = {
                     'font-stretch',
                     'font-style',
                     'font-smoothing',
-
-                    'color',
 
                     'text-decoration',
                     'text-underline-position',
