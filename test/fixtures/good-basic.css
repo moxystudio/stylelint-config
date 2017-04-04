@@ -1,47 +1,55 @@
 @import "foo.css";
 @import "bar.css";
-@mixin foo .foo;
 
+@mixin foo .foo;
 @mixin bar .foo;
 
 .foo {
-
     @mixin foo;
     display: block;
-    font-size: 20px;
     color: red;
+    font-size: 20px;
     @mixin bar;
 }
-@media (width <= 600px) {
 
+@media (width <= 600px) {
     .foo {
         font-size: 15px;
     }
 }
+
 @media (width <= 400px) {
     .foo {
         font-size: 10px;
     }
 }
+
 /* ==========================================================================
    Main comment block
    ========================================================================== */
+
 .title {
     font-size: 20px;
 }
+
 /* Secondary comment block
    ============================================= */
+
 .description {
     font-size: 15px;
 }
+
 /* Tertiary comment block & line/inline comments */
+
 .tags {
     /* Line comment */
     background: red;
+
     /* Line comment 2 */
     /* Line comment 2.1 */
     transition: color 0.2s ease-out;  /* Inline comment */
 }
+
 /*
    Multi
    line

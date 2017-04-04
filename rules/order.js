@@ -6,8 +6,11 @@ module.exports = {
         'stylelint-order',
     ],
     'rules': {
+        // Remove alphabetic order enforced by suitcss (remove when they https://github.com/suitcss/stylelint-config-suitcss/pull/29 gets merged)
         'order/declaration-block-properties-alphabetical-order': null,
-        'order/declaration-block-property-groups-structure': [
+        // Remove alphabetic order enforced by suitcss
+        'order/properties-alphabetical-order': null,
+        'order/properties-order': [
             // overview
             {
                 'properties': [
