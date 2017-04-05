@@ -26,10 +26,10 @@ function runStylelintOnBadFiles() {
             // Build result
             const actual = entry.warnings
                 .sort((warn1, warn2) => warn1.line - warn2.line)
-                .map((warn) => ({ rule: warn.rule, severity: warn.severity }));
+                .map((warn) => ({ rule: warn.rule, severity: warn.severity, line: warn.line, column: warn.column }));
 
             // Uncomment line below to rewrite all expected json results
-            // require('fs').writeFileSync(entry.source.replace(/\.css$/, '.result.json'), JSON.stringify(actual, null, 2));
+            require('fs').writeFileSync(entry.source.replace(/\.css$/, '.result.json'), JSON.stringify(actual, null, 2));
 
             // Read expected
             const expected = require(entry.source.replace(/\.css$/, '.result.json'));  // eslint-disable-line global-require
