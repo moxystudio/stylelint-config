@@ -5,13 +5,17 @@
 @mixin bar .foo;
 
 .foo {
-
     @mixin foo;
     display: block;
     color: red;
     font-size: 20px;
     @mixin bar;
 }
+.bar {
+    /* */
+    color: red;
+}
+
 @media (width <= 600px) {
 
     .foo {
