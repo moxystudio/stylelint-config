@@ -1,0 +1,138 @@
+div {
+    /* unknown properties */
+    unknown: property;
+    another-unknown: property;
+
+    /* overview */
+    content: "";
+    all: initial;
+    box-sizing: border-box;
+    will-change: all;
+
+    /* position, dimensions and boundaries */
+    top: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    min-width: 1000px;
+    width: 100px;
+    max-width: 50px;
+    min-height: 1000px;
+    height: 100px;
+    max-height: 50px;
+
+    overflow: hidden;
+    z-index: 10;
+    overflow-x: auto;
+    overflow-y: auto;
+
+    margin-top: 5px;
+    margin: 0;
+    padding-top: 5px;
+    padding: 0;
+
+    zoom: 1;
+    transform: translateX(0);
+
+    /* display */
+    display: inline-block;
+
+    flex-basis: 100px;
+    flex: 0 1 auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-flow: row wrap;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: auto;
+    align-items: center;
+    align-content: center;
+    order: 1;
+
+    float: right;
+    clear: both;
+    visibility: hidden;
+    vertical-align: top;
+    direction: rtl;
+
+    empty-cells: hide;
+    table-layout: fixed;
+
+    /* asthethic */
+    border: 1px solid red;
+    list-style: none;
+    outline: 1px solid red;
+
+    object-fit: contain;
+    opacity: 1;
+    object-position: center;
+    clip-path: none;
+    background: #000;
+
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+    filter: blur(5px);
+
+    /* text */
+    color: red;
+
+    font-family: "Open Sans";
+    font: 2em "Open Sans", sans-serif;
+    font-variant: small-caps;
+    font-size: 12px;
+    font-size-adjust: 0.5;
+    font-kerning: auto;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: italic;
+    -webkit-font-smoothing: antialized;
+    -moz-osx-font-smoothing: grayscale;
+
+    text-underline-position: under;
+    text-decoration: unline;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+    text-overflow: ellipsis;
+    text-align: left;
+    text-justify: inter-word;
+    text-indent: 40px;
+
+    tab-size: 4;
+    line-height: 10px;
+    white-space: nowrap;
+    word-spacing: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+    /* paragraphs and wrapping */
+    hyphens: auto;
+    word-break: keep-all;
+    orphans: 3;
+    widows: 2;
+
+    /* cursor */
+    user-select: none;
+    pointer-events: auto;
+    cursor: pointer;
+    resize: both;
+
+    /* animations & transitions */
+    animation-name: shrink;
+    animation: stretch 1.5s ease-out 0s alternate;
+    animation-play-state: played;
+    animation-direction: backwards;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease;
+
+    transition-property: transform;
+    transition: opacity 1s;
+    transition-duration: 2s;
+    transition-delay: 2s;
+    transition-timing-function: ease;
+};

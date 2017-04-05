@@ -1,0 +1,98 @@
+[
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "declaration-block-no-shorthand-property-overrides",
+    "severity": "error"
+  },
+  {
+    "rule": "declaration-block-no-shorthand-property-overrides",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "declaration-block-no-shorthand-property-overrides",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  },
+  {
+    "rule": "declaration-block-no-shorthand-property-overrides",
+    "severity": "error"
+  },
+  {
+    "rule": "order/properties-order",
+    "severity": "error"
+  }
+]

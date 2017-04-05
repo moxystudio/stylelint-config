@@ -1,0 +1,138 @@
+div {
+    /* overview */
+    all: initial;
+    content: "";
+    box-sizing: border-box;
+    will-change: all;
+
+    /* position, dimensions and boundaries */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 100px;
+    min-width: 1000px;
+    max-width: 50px;
+    height: 100px;
+    min-height: 1000px;
+    max-height: 50px;
+
+    z-index: 10;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: auto;
+
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    padding-top: 5px;
+
+    transform: translateX(0);
+    zoom: 1;
+
+    /* display */
+    display: inline-block;
+
+    flex: 0 1 auto;
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-flow: row wrap;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: auto;
+    align-items: center;
+    align-content: center;
+    order: 1;
+
+    clear: both;
+    float: right;
+    visibility: hidden;
+    vertical-align: top;
+    direction: rtl;
+
+    table-layout: fixed;
+    empty-cells: hide;
+
+    /* asthethic */
+    list-style: none;
+    border: 1px solid red;
+    outline: 1px solid red;
+
+    opacity: 1;
+    object-fit: contain;
+    object-position: center;
+    clip-path: none;
+    background: #000;
+
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px black;
+    filter: blur(5px);
+
+    /* text */
+    color: red;
+
+    font: 2em "Open Sans", sans-serif;
+    font-family: "Open Sans";
+    font-variant: small-caps;
+    font-size: 12px;
+    font-size-adjust: 0.5;
+    font-kerning: auto;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: italic;
+    -webkit-font-smoothing: antialized;
+    -moz-osx-font-smoothing: grayscale;
+
+    text-decoration: unline;
+    text-underline-position: under;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+    text-overflow: ellipsis;
+    text-align: left;
+    text-justify: inter-word;
+    text-indent: 40px;
+
+    line-height: 10px;
+    tab-size: 4;
+    white-space: nowrap;
+    word-spacing: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+    /* paragraphs and wrapping */
+    word-break: keep-all;
+    hyphens: auto;
+    orphans: 3;
+    widows: 2;
+
+    /* cursor */
+    pointer-events: auto;
+    user-select: none;
+    cursor: pointer;
+    resize: both;
+
+    /* animations & transitions */
+    animation: stretch 1.5s ease-out 0s alternate;
+    animation-name: shrink;
+    animation-play-state: played;
+    animation-direction: backwards;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease;
+
+    transition: opacity 1s;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-delay: 2s;
+    transition-timing-function: ease;
+
+    /* unknown properties */
+    unknown: property;
+    another-unknown: property;
+};
