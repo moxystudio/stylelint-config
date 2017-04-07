@@ -25,7 +25,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "stylelint-config-suitcss": "^10.0.0",
+    "stylelint-config-suitcss": "^11.0.0",
     "stylelint-order": "^0.4.0"
   },
   "devDependencies": {
