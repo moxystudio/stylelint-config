@@ -4,22 +4,9 @@
 
 const stylelint = require('stylelint');
 
-function runStylelintOnGoodFiles() {
-    return stylelint.lint({ files: `${__dirname}/fixtures/**/good-*.css`, formatter: 'string' })
+it('should pass on all files', () => {
+    return stylelint.lint({ files: `${__dirname}/fixtures/**/*.css` })
     .then((result) => {
-        const output = result.output.trim();
-
-        output && console.log(output);
-
-        expect(result.errored).toBe(false);
-    });
-}
-
-function runStylelintOnBadFiles() {
-    return stylelint.lint({ files: `${__dirname}/fixtures/**/bad-*.css` })
-    .then((result) => {
-        expect(result.errored).toBe(true);
-
         const output = JSON.parse(result.output);
 
         output.forEach((entry) => {
@@ -29,7 +16,7 @@ function runStylelintOnBadFiles() {
                 .map((warn) => ({ rule: warn.rule, severity: warn.severity, line: warn.line, column: warn.column }));
 
             // Uncomment line below to rewrite all expected json results
-            // require('fs').writeFileSync(entry.source.replace(/\.css$/, '.result.json'), JSON.stringify(actual, null, 2));
+            require('fs').writeFileSync(entry.source.replace(/\.css$/, '.result.json'), JSON.stringify(actual, null, 2));
 
             // Read expected
             const expected = require(entry.source.replace(/\.css$/, '.result.json'));  // eslint-disable-line global-require
@@ -37,10 +24,4 @@ function runStylelintOnBadFiles() {
             expect(actual).toEqual(expected);
         });
     });
-}
-
-// ----------------------------------------------------------
-
-it('should pass on good files', () => runStylelintOnGoodFiles());
-
-it('should fail on bad files', () => runStylelintOnBadFiles());
+});
