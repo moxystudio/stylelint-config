@@ -24,6 +24,9 @@
   "repository": "git@github.com:moxystudio/stylelint-config.git",
   "main": "index.js",
   "license": "MIT",
+  "peerDependencies": {
+    "stylelint": "^7.9.0"
+  },
   "dependencies": {
     "stylelint-config-suitcss": "^10.0.0",
     "stylelint-order": "^0.4.0"
