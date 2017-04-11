@@ -1,0 +1,9 @@
+{
+    "env": {
+      "jest": true
+    },
+    "extends": [
+        "eslint-config-moxy/es6.js",
+        "eslint-config-moxy/addons/node.js"
+    ]
+}

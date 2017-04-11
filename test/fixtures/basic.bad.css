@@ -1,5 +1,5 @@
 @import "foo.css";
-@import "bar.css";
+@import 'bar.css';
 @mixin foo .foo;
 
 @mixin bar .foo;

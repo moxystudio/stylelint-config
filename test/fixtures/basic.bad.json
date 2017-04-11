@@ -1,5 +1,11 @@
 [
   {
+    "rule": "string-quotes",
+    "severity": "error",
+    "line": 2,
+    "column": 9
+  },
+  {
     "rule": "at-rule-empty-line-before",
     "severity": "error",
     "line": 3,

@@ -17,12 +17,12 @@ MOXY [stylelint](http://stylelint.org/) configuration to be used across projects
 
 ## Installation
 
-`$ npm install --save-dev stylelint-config-moxy stylelint`
+`$ npm install --save-dev stylelint stylelint-config-moxy`
 
 
 ## Usage
 
-Create a `.stylelintrc` file with:
+Create a `.stylelintrc.json` file with:
 
 ```json
 {
