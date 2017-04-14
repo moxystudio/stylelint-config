@@ -20,8 +20,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:staged": "lint-staged",
-    "test": "jest",
-    "test:watch": "jest --watch",
+    "test": "jest --env node",
+    "test:watch": "jest --env node --watch",
     "posttest": "npm run lint",
     "precommit": "npm run lint:staged"
   },
