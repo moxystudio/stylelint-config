@@ -11,6 +11,12 @@
     "linter",
     "style"
   ],
+  "author": "André Cruz <andre@moxy.studio>",
+  "homepage": "https://github.com/moxystudio/stylelint-config",
+  "bugs": "https://github.com/moxystudio/stylelint-config/issues",
+  "repository": "git@github.com:moxystudio/stylelint-config.git",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "lint": "eslint .",
     "lint:staged": "lint-staged",
@@ -19,12 +25,9 @@
     "posttest": "npm run lint",
     "precommit": "npm run lint:staged"
   },
-  "author": "André Cruz <andre@moxy.studio>",
-  "homepage": "https://github.com/moxystudio/stylelint-config",
-  "bugs": "https://github.com/moxystudio/stylelint-config/issues",
-  "repository": "git@github.com:moxystudio/stylelint-config.git",
-  "main": "index.js",
-  "license": "MIT",
+  "lint-staged": {
+    "*.js": "eslint"
+  },
   "peerDependencies": {
     "stylelint": "^7.9.0"
   },
