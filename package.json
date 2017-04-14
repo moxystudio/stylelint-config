@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-moxy",
   "description": "MOXY stylelint configuration to be used across projects",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "keywords": [
     "stylelint-config",
     "stylelintconfig",
