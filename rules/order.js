@@ -12,7 +12,7 @@ module.exports = {
         'order/properties-alphabetical-order': null,
         'order/properties-order': [
             [
-                // overview
+                // Overview
                 {
                     'properties': [
                         'all',
@@ -22,7 +22,7 @@ module.exports = {
                     ],
                 },
 
-                // position, dimensions and boundaries
+                // Position, dimensions and boundaries
                 {
                     'properties': [
                         'position',
@@ -51,12 +51,12 @@ module.exports = {
                     ],
                 },
 
-                // display
+                // Display
                 {
                     'properties': [
                         'display',
 
-                        // flexbox only
+                        // Flexbox only
                         'flex',
                         'flex-basis',
                         'flex-grow',
@@ -82,7 +82,7 @@ module.exports = {
                     ],
                 },
 
-                // asthethic
+                // Asthethic
                 {
                     'properties': [
                         'list-style',
@@ -101,7 +101,7 @@ module.exports = {
                     ],
                 },
 
-                // text
+                // Text
                 {
                     'properties': [
                         'color',
@@ -135,7 +135,7 @@ module.exports = {
                     ],
                 },
 
-                // paragraphs and wrapping
+                // Paragraphs and wrapping
                 {
                     'properties': [
                         'word-break',
@@ -145,7 +145,7 @@ module.exports = {
                     ],
                 },
 
-                // cursor
+                // Cursor
                 {
                     'properties': [
                         'pointer-events',
@@ -155,7 +155,7 @@ module.exports = {
                     ],
                 },
 
-                // animations & transitions
+                // Animations & transitions
                 {
                     'properties': [
                         'animation',

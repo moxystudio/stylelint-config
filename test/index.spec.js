@@ -4,8 +4,8 @@
 
 const stylelint = require('stylelint');
 
-it('should pass on all files', () => {
-    return stylelint.lint({ files: `${__dirname}/fixtures/**/*.css` })
+it('should pass on all files', () => (
+    stylelint.lint({ files: `${__dirname}/fixtures/**/*.css` })
     .then((result) => {
         const output = JSON.parse(result.output);
 
@@ -30,5 +30,5 @@ it('should pass on all files', () => {
                 throw err;
             }
         });
-    });
-});
+    })
+));
