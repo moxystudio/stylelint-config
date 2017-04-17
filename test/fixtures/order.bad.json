@@ -1,146 +1,146 @@
 [
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 7,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 8,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 14,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 20,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 23,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 27,
-    "column": 5
-  },
-  {
-    "rule": "declaration-block-no-shorthand-property-overrides",
-    "severity": "error",
-    "line": 32,
-    "column": 5
-  },
-  {
-    "rule": "declaration-block-no-shorthand-property-overrides",
-    "severity": "error",
-    "line": 34,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 37,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 43,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 56,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 62,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 66,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 70,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 76,
-    "column": 5
-  },
-  {
-    "rule": "declaration-block-no-shorthand-property-overrides",
-    "severity": "error",
-    "line": 83,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 83,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 95,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 104,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 112,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 118,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 124,
-    "column": 5
-  },
-  {
-    "rule": "declaration-block-no-shorthand-property-overrides",
-    "severity": "error",
-    "line": 134,
-    "column": 5
-  },
-  {
-    "rule": "order/properties-order",
-    "severity": "error",
-    "line": 134,
-    "column": 5
-  }
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 7,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 8,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 14,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 20,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 23,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 27,
+        "column": 5
+    },
+    {
+        "rule": "declaration-block-no-shorthand-property-overrides",
+        "severity": "error",
+        "line": 32,
+        "column": 5
+    },
+    {
+        "rule": "declaration-block-no-shorthand-property-overrides",
+        "severity": "error",
+        "line": 34,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 37,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 43,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 56,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 62,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 66,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 70,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 76,
+        "column": 5
+    },
+    {
+        "rule": "declaration-block-no-shorthand-property-overrides",
+        "severity": "error",
+        "line": 83,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 83,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 95,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 104,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 112,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 118,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 124,
+        "column": 5
+    },
+    {
+        "rule": "declaration-block-no-shorthand-property-overrides",
+        "severity": "error",
+        "line": 134,
+        "column": 5
+    },
+    {
+        "rule": "order/properties-order",
+        "severity": "error",
+        "line": 134,
+        "column": 5
+    }
 ]

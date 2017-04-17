@@ -18,7 +18,7 @@ it('should pass on all files', () => (
                 .map((warn) => ({ rule: warn.rule, severity: warn.severity, line: warn.line, column: warn.column }));
 
             // Uncomment line below to rewrite all expected json results
-            // require('fs').writeFileSync(filePath.replace(/\.css$/, '.json'), JSON.stringify(actual, null, 2));
+            // require('fs').writeFileSync(filePath.replace(/\.css$/, '.json'), JSON.stringify(actual, null, 4));
 
             // Read expected
             const expected = require(filePath.replace(/\.css$/, '.json'));  // eslint-disable-line global-require
