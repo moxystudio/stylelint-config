@@ -67,6 +67,12 @@ If a CSS file is strictly associated with a JS file, it should follow the name o
 ```
 
 
+## Tests
+
+`$ npm test`   
+`$ npm test:watch` during development
+
+
 ## License
 
 [MIT License](http://opensource.org/licenses/MIT)
