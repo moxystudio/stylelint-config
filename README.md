@@ -1,6 +1,7 @@
 # stylelint-config
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url] [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
+
 
 [npm-url]:https://npmjs.org/package/stylelint-config-moxy
 [npm-image]:http://img.shields.io/npm/v/stylelint-config-moxy.svg
@@ -11,6 +12,8 @@
 [david-dm-image]:https://img.shields.io/david/moxystudio/stylelint-config.svg
 [david-dm-dev-url]:https://david-dm.org/moxystudio/stylelint-config#info=devDependencies
 [david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/stylelint-config.svg
+[greenkeeper-image]:https://badges.greenkeeper.io/moxystudio/stylelint-config.svg
+[greenkeeper-url]:https://greenkeeper.io
 
 MOXY [stylelint](http://stylelint.org/) configuration to be used across projects.
 
