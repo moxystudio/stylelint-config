@@ -10,7 +10,7 @@
 [travis-image]:http://img.shields.io/travis/moxystudio/stylelint-config/master.svg
 [david-dm-url]:https://david-dm.org/moxystudio/stylelint-config
 [david-dm-image]:https://img.shields.io/david/moxystudio/stylelint-config.svg
-[david-dm-dev-url]:https://david-dm.org/moxystudio/stylelint-config#info=devDependencies
+[david-dm-dev-url]:https://david-dm.org/moxystudio/stylelint-config?type=dev
 [david-dm-dev-image]:https://img.shields.io/david/dev/moxystudio/stylelint-config.svg
 [greenkeeper-image]:https://badges.greenkeeper.io/moxystudio/stylelint-config.svg
 [greenkeeper-url]:https://greenkeeper.io
