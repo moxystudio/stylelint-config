@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "stylelint-config-suitcss": "^11.0.0",
-    "stylelint-order": "^0.4.0"
+    "stylelint-order": "^0.5.0"
   },
   "devDependencies": {
     "eslint": "^3.9.1",
