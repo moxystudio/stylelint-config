@@ -36,7 +36,7 @@
     "stylelint-order": "^0.4.0"
   },
   "devDependencies": {
-    "eslint": "^3.9.1",
+    "eslint": "^4.1.0",
     "eslint-config-moxy": "^2.0.0",
     "husky": "^0.14.0",
     "jest": "^20.0.0",
