@@ -33,14 +33,14 @@
   },
   "dependencies": {
     "stylelint-config-suitcss": "^11.0.0",
-    "stylelint-order": "^0.4.0"
+    "stylelint-order": "^0.4.4"
   },
   "devDependencies": {
-    "eslint": "^3.9.1",
-    "eslint-config-moxy": "^2.0.0",
+    "eslint": "^4.0.0",
+    "eslint-config-moxy": "^3.0.0",
     "husky": "^0.14.0",
     "jest": "^20.0.0",
     "lint-staged": "^4.0.0",
-    "stylelint": "^7.9.0"
+    "stylelint": "^7.12.0"
   }
 }
