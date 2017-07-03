@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "eslint": "^3.9.1",
-    "eslint-config-moxy": "^2.0.0",
+    "eslint-config-moxy": "^3.0.0",
     "husky": "^0.14.0",
     "jest": "^20.0.0",
     "lint-staged": "^4.0.0",
