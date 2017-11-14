@@ -2,14 +2,14 @@
 
 // See https://github.com/hudochenkov/stylelint-order
 module.exports = {
-    'plugins': [
-        'stylelint-order',
-    ],
+    // No need to bring in the plugin because `stylelint-config-suitcss` already includes it
+    // 'plugins': [
+    //     'stylelint-order',
+    // ],
     'rules': {
-        // Remove alphabetic order enforced by suitcss (remove when they https://github.com/suitcss/stylelint-config-suitcss/pull/29 gets merged)
-        'order/declaration-block-properties-alphabetical-order': null,
         // Remove alphabetic order enforced by suitcss
         'order/properties-alphabetical-order': null,
+        // Define our own order
         'order/properties-order': [
             [
                 // Overview

@@ -54,6 +54,12 @@
         "column": 5
     },
     {
+        "rule": "declaration-block-no-shorthand-property-overrides",
+        "severity": "error",
+        "line": 43,
+        "column": 5
+    },
+    {
         "rule": "order/properties-order",
         "severity": "error",
         "line": 43,
@@ -123,6 +129,12 @@
         "rule": "order/properties-order",
         "severity": "error",
         "line": 118,
+        "column": 5
+    },
+    {
+        "rule": "declaration-block-no-shorthand-property-overrides",
+        "severity": "error",
+        "line": 124,
         "column": 5
     },
     {

@@ -73,7 +73,7 @@ If a CSS file is strictly associated with a JS file, it should follow the name o
 ## Tests
 
 `$ npm test`   
-`$ npm test:watch` during development
+`$ npm test -- --watch` during development
 
 
 ## License
