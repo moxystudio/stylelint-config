@@ -20,7 +20,7 @@ MOXY [stylelint](http://stylelint.org/) configuration to be used across projects
 
 ## Installation
 
-`$ npm install --save-dev stylelint stylelint-config-moxy`
+`$ npm install stylelint stylelint-config-moxy --save-dev`
 
 
 ## Usage
