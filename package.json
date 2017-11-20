@@ -15,8 +15,11 @@
   "homepage": "https://github.com/moxystudio/stylelint-config",
   "bugs": "https://github.com/moxystudio/stylelint-config/issues",
   "repository": "git@github.com:moxystudio/stylelint-config.git",
-  "main": "index.js",
   "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "rules"
+  ],
   "scripts": {
     "lint": "eslint .",
     "test": "jest --env node",
