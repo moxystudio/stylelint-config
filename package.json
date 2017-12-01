@@ -57,7 +57,7 @@
     "eslint-config-moxy": "^4.1.0",
     "husky": "^0.14.0",
     "jest": "^21.0.0",
-    "lint-staged": "^5.0.0",
+    "lint-staged": "^6.0.0",
     "standard-version": "^4.2.0",
     "stylelint": "^8.2.0"
   }
