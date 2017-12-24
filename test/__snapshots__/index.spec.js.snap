@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should pass on fixtures/basic.bad.css 1`] = `
+Array [
+  Object {
+    "column": 9,
+    "line": 2,
+    "rule": "string-quotes",
+    "severity": "error",
+  },
+  Object {
+    "column": 1,
+    "line": 3,
+    "rule": "at-rule-empty-line-before",
+    "severity": "error",
+  },
+  Object {
+    "column": 1,
+    "line": 5,
+    "rule": "at-rule-empty-line-before",
+    "severity": "error",
+  },
+  Object {
+    "column": 1,
+    "line": 14,
+    "rule": "rule-empty-line-before",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 15,
+    "rule": "comment-no-empty",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 21,
+    "rule": "rule-empty-line-before",
+    "severity": "error",
+  },
+  Object {
+    "column": 1,
+    "line": 25,
+    "rule": "at-rule-empty-line-before",
+    "severity": "error",
+  },
+  Object {
+    "column": 1,
+    "line": 30,
+    "rule": "comment-empty-line-before",
+    "severity": "error",
+  },
+  Object {
+    "column": 1,
+    "line": 33,
+    "rule": "rule-empty-line-before",
+    "severity": "error",
+  },
+  Object {
+    "column": 1,
+    "line": 36,
+    "rule": "comment-empty-line-before",
+    "severity": "error",
+  },
+  Object {
+    "column": 1,
+    "line": 38,
+    "rule": "rule-empty-line-before",
+    "severity": "error",
+  },
+  Object {
+    "column": 1,
+    "line": 41,
+    "rule": "comment-empty-line-before",
+    "severity": "error",
+  },
+  Object {
+    "column": 1,
+    "line": 42,
+    "rule": "rule-empty-line-before",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 45,
+    "rule": "comment-empty-line-before",
+    "severity": "error",
+  },
+  Object {
+    "column": 1,
+    "line": 49,
+    "rule": "comment-empty-line-before",
+    "severity": "error",
+  },
+]
+`;
+
+exports[`should pass on fixtures/basic.good.css 1`] = `Array []`;
+
+exports[`should pass on fixtures/order.bad.css 1`] = `
+Array [
+  Object {
+    "column": 5,
+    "line": 7,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 8,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 14,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 20,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 23,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 27,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 32,
+    "rule": "declaration-block-no-shorthand-property-overrides",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 34,
+    "rule": "declaration-block-no-shorthand-property-overrides",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 37,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 43,
+    "rule": "declaration-block-no-shorthand-property-overrides",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 43,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 56,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 62,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 66,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 70,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 76,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 83,
+    "rule": "declaration-block-no-shorthand-property-overrides",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 83,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 95,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 104,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 112,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 118,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 124,
+    "rule": "declaration-block-no-shorthand-property-overrides",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 124,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 134,
+    "rule": "declaration-block-no-shorthand-property-overrides",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 134,
+    "rule": "order/properties-order",
+    "severity": "error",
+  },
+]
+`;
+
+exports[`should pass on fixtures/order.good.css 1`] = `Array []`;

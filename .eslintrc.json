@@ -1,11 +1,10 @@
 {
     "root": true,
     "extends": [
-        "eslint-config-moxy/es5.js",
-        "eslint-config-moxy/addons/node.js"
+        "eslint-config-moxy/es5",
+        "eslint-config-moxy/addons/node"
     ],
     "rules": {
-        // consistency for this project
         "quote-props": [2, "always"]
     }
 }
