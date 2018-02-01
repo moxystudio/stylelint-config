@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/moxystudio/stylelint-config/compare/v3.0.0...v4.0.0) (2018-02-01)
+
+
+### Bug Fixes
+
+* update stylelint-order plugin ([c0ed9f3](https://github.com/moxystudio/stylelint-config/commit/c0ed9f3)), closes [#38](https://github.com/moxystudio/stylelint-config/issues/38)
+
+
+### BREAKING CHANGES
+
+* minimum required nodejs version is now v6.0.0
+* the order of some longhand properties has changed
+
+
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/moxystudio/stylelint-config/compare/v2.2.1...v3.0.0) (2017-11-14)
 
