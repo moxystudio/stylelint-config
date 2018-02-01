@@ -26,10 +26,22 @@ div {
 
     margin: 0;
     margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
     padding: 0;
     padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
 
     transform: translateX(0);
+    transform-box: auto;
+    transform-origin: auto;
+    transform-style: auto;
+    backface-visibility: auto;
+    perspective: auto;
+    perspective-origin: auto;
     zoom: 1;
 
     /* display */
@@ -48,27 +60,108 @@ div {
     align-content: center;
     order: 1;
 
+    /* Grid Layout */
+    grid: none;
+    grid-area: auto;
+    grid-auto-columns: auto;
+    grid-auto-flow: row;
+    grid-auto-rows: auto;
+    grid-gap: 1em;
+    grid-column: auto;
+    grid-column-end: auto;
+    grid-column-gap: 1em;
+    grid-column-start: auto;
+    grid-row: auto;
+    grid-row-end: auto;
+    grid-row-gap: 1em;
+    grid-row-start: auto;
+    grid-template: none;
+    grid-template-areas: none;
+    grid-template-columns: none;
+    grid-template-rows: none;
+
+    /* Columns */
+    columns: auto;
+    column-width: auto;
+    column-count: auto;
+    column-fill: auto;
+    column-gap: auto;
+    column-rule: auto;
+    column-rule-color: auto;
+    column-rule-style: auto;
+    column-rule-width: auto;
+    column-span: auto;
+    break-after: auto;
+    break-before: auto;
+    break-inside: auto;
+    orphans: auto;
+    widows: auto;
+
     clear: both;
     float: right;
     visibility: hidden;
     vertical-align: top;
     direction: rtl;
 
+    /* Table related stuff only */
     table-layout: fixed;
     empty-cells: hide;
 
     /* asthethic */
     list-style: none;
+    list-style-image: auto;
+    list-style-position: auto;
+    list-style-type: auto;
+
     border: 1px solid red;
+    border-width: auto;
+    border-style: auto;
+    border-color: auto;
+    border-top: auto;
+    border-top-width: auto;
+    border-top-style: auto;
+    border-top-color: auto;
+    border-left: auto;
+    border-left-width: auto;
+    border-left-style: auto;
+    border-left-color: auto;
+    border-bottom: auto;
+    border-bottom-width: auto;
+    border-bottom-style: auto;
+    border-bottom-color: auto;
+    border-right: auto;
+    border-right-width: auto;
+    border-right-style: auto;
+    border-right-color: auto;
+
     outline: 1px solid red;
+    outline-color: auto;
+    outline-width: auto;
+    outline-style: auto;
+    outline-offset: auto;
 
     opacity: 1;
     object-fit: contain;
     object-position: center;
     clip-path: none;
+
     background: #000;
+    background-color: auto;
+    background-image: auto;
+    background-position: auto;
+    background-size: auto;
+    background-origin: auto;
+    background-repeat: auto;
+    background-clip: auto;
+    background-attachment: auto;
+    background-blend-mode: auto;
 
     border-radius: 5px;
+    border-top-left-radius: auto;
+    border-top-right-radius: auto;
+    border-bottom-right-radius: auto;
+    border-bottom-left-radius: auto;
+
     box-shadow: 10px 5px 5px black;
     filter: blur(5px);
 
@@ -78,36 +171,58 @@ div {
     font: 2em "Open Sans", sans-serif;
     font-family: "Open Sans";
     font-variant: small-caps;
+    font-variant-alternates: auto;
+    font-variant-caps: auto;
+    font-variant-east-asian: auto;
+    font-variant-ligatures: auto;
+    font-variant-numeric: auto;
+    font-variant-position: auto;
     font-size: 12px;
     font-size-adjust: 0.5;
     font-kerning: auto;
     font-weight: bold;
     font-stretch: condensed;
     font-style: italic;
+    font-smooth: antialized;
     -webkit-font-smoothing: antialized;
     -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: auto;
+    font-language-override: auto;
+    font-synthesis: auto;
 
     text-decoration: unline;
+    text-decoration-line: auto;
+    text-decoration-style: auto;
+    text-decoration-color: auto;
     text-underline-position: under;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px black;
     text-overflow: ellipsis;
     text-align: left;
+    text-align-last: auto;
     text-justify: inter-word;
     text-indent: 40px;
+    text-emphasis: auto;
+    text-emphasis-color: auto;
+    text-emphasis-position: auto;
+    text-emphasis-style: auto;
+    text-orientation: auto;
+    text-rendering: auto;
+    text-combine-upright: auto;
 
     line-height: 10px;
     tab-size: 4;
     white-space: nowrap;
+    letter-spacing: normal;
     word-spacing: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    hanging-punctuation: auto;
 
     /* paragraphs and wrapping */
     word-break: keep-all;
+    line-break: auto;
     hyphens: auto;
-    orphans: 3;
-    widows: 2;
 
     /* cursor */
     pointer-events: auto;
@@ -125,6 +240,13 @@ div {
     animation-delay: 1s;
     animation-iteration-count: 5;
     animation-timing-function: ease;
+
+    offset: auto;
+    offset-position: auto;
+    offset-path: auto;
+    offset-distance: auto;
+    offset-anchor: auto;
+    offset-rotate: auto;
 
     transition: opacity 1s;
     transition-property: transform;
