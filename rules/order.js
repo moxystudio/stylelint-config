@@ -1,6 +1,264 @@
 'use strict';
 
 // See https://github.com/hudochenkov/stylelint-order
+
+const order = [
+    // Overview
+    'all',
+    'content',
+    'box-sizing',
+    'will-change',
+
+    // Position, dimensions and boundaries
+    'position',
+    'top',
+    'right',
+    'bottom',
+    'left',
+
+    'width',
+    'min-width',
+    'max-width',
+    'height',
+    'min-height',
+    'max-height',
+
+    'z-index',
+    'overflow',
+    'overflow-x',
+    'overflow-y',
+
+    'margin',
+    'margin-top',
+    'margin-left',
+    'margin-bottom',
+    'margin-right',
+    'padding',
+    'padding-top',
+    'padding-left',
+    'padding-bottom',
+    'padding-right',
+
+    'transform',
+    'transform-box',
+    'transform-origin',
+    'transform-style',
+    'backface-visibility',
+    'perspective',
+    'perspective-origin',
+    'zoom',
+
+    // Display
+    'display',
+
+    // Flexbox only
+    'flex',
+    'flex-basis',
+    'flex-grow',
+    'flex-shrink',
+    'flex-flow',
+    'flex-wrap',
+    'flex-direction',
+    'justify-content',
+    'align-self',
+    'align-items',
+    'align-content',
+    'order',
+
+    // Grid Layout
+    'grid',
+    'grid-area',
+    'grid-auto-columns',
+    'grid-auto-flow',
+    'grid-auto-rows',
+    'grid-gap',
+    'grid-column',
+    'grid-column-end',
+    'grid-column-gap',
+    'grid-column-start',
+    'grid-row',
+    'grid-row-end',
+    'grid-row-gap',
+    'grid-row-start',
+    'grid-template',
+    'grid-template-areas',
+    'grid-template-columns',
+    'grid-template-rows',
+
+    // CSS Columns
+    'columns',
+    'column-width',
+    'column-count',
+    'column-fill',
+    'column-gap',
+    'column-rule',
+    'column-rule-color',
+    'column-rule-style',
+    'column-rule-width',
+    'column-span',
+    'break-after',
+    'break-before',
+    'break-inside',
+    'orphans',
+    'widows',
+
+    'clear',
+    'float',
+    'visibility',
+    'vertical-align',
+    'direction',
+
+    // Table related stuff only
+    'table-layout',
+    'empty-cells',
+
+    // Asthethic
+    'list-style',
+    'list-style-image',
+    'list-style-position',
+    'list-style-type',
+
+    'border',
+    'border-width',
+    'border-style',
+    'border-color',
+    'border-top',
+    'border-top-width',
+    'border-top-style',
+    'border-top-color',
+    'border-left',
+    'border-left-width',
+    'border-left-style',
+    'border-left-color',
+    'border-bottom',
+    'border-bottom-width',
+    'border-bottom-style',
+    'border-bottom-color',
+    'border-right',
+    'border-right-width',
+    'border-right-style',
+    'border-right-color',
+
+    'outline',
+    'outline-color',
+    'outline-width',
+    'outline-style',
+    'outline-offset',
+
+    'opacity',
+    'object-fit',
+    'object-position',
+    'clip-path',
+
+    'background',
+    'background-color',
+    'background-image',
+    'background-position',
+    'background-size',
+    'background-origin',
+    'background-repeat',
+    'background-clip',
+    'background-attachment',
+    'background-blend-mode',
+
+    'border-radius',
+    'border-top-left-radius',
+    'border-top-right-radius',
+    'border-bottom-right-radius',
+    'border-bottom-left-radius',
+
+    'box-shadow',
+    'filter',
+
+    // Text
+    'color',
+
+    'font',
+    'font-family',
+    'font-variant',
+    'font-variant-alternates',
+    'font-variant-caps',
+    'font-variant-east-asian',
+    'font-variant-ligatures',
+    'font-variant-numeric',
+    'font-variant-position',
+    'font-size',
+    'font-size-adjust',
+    'font-kerning',
+    'font-weight',
+    'font-stretch',
+    'font-style',
+    'font-smooth',
+    'font-smoothing',
+    'font-feature-settings',
+    'font-language-override',
+    'font-synthesis',
+
+    'text-decoration',
+    'text-decoration-line',
+    'text-decoration-style',
+    'text-decoration-color',
+    'text-underline-position',
+    'text-transform',
+    'text-shadow',
+    'text-overflow',
+    'text-align',
+    'text-align-last',
+    'text-justify',
+    'text-indent',
+    'text-emphasis',
+    'text-emphasis-color',
+    'text-emphasis-position',
+    'text-emphasis-style',
+    'text-orientation',
+    'text-rendering',
+    'text-combine-upright',
+
+    'line-height',
+    'tab-size',
+    'white-space',
+    'letter-spacing',
+    'word-spacing',
+    'word-wrap',
+    'overflow-wrap',
+    'hanging-punctuation',
+
+    // Paragraphs and wrapping
+    'word-break',
+    'line-break',
+    'hyphens',
+
+    // Cursor
+    'pointer-events',
+    'user-select',
+    'cursor',
+    'resize',
+
+    // Animations & transitions
+    'animation',
+    'animation-name',
+    'animation-play-state',
+    'animation-direction',
+    'animation-fill-mode',
+    'animation-duration',
+    'animation-delay',
+    'animation-iteration-count',
+    'animation-timing-function',
+
+    'offset',
+    'offset-position',
+    'offset-path',
+    'offset-distance',
+    'offset-anchor',
+    'offset-rotate',
+
+    'transition',
+    'transition-property',
+    'transition-duration',
+    'transition-delay',
+    'transition-timing-function',
+];
+
 module.exports = {
     // No need to bring in the plugin because `stylelint-config-suitcss` already includes it
     // 'plugins': [
@@ -10,173 +268,6 @@ module.exports = {
         // Remove alphabetic order enforced by suitcss
         'order/properties-alphabetical-order': null,
         // Define our own order
-        'order/properties-order': [
-            [
-                // Overview
-                {
-                    'properties': [
-                        'all',
-                        'content',
-                        'box-sizing',
-                        'will-change',
-                    ],
-                },
-
-                // Position, dimensions and boundaries
-                {
-                    'properties': [
-                        'position',
-                        'top',
-                        'right',
-                        'bottom',
-                        'left',
-
-                        'width',
-                        'min-width',
-                        'max-width',
-                        'height',
-                        'min-height',
-                        'max-height',
-
-                        'z-index',
-                        'overflow',
-                        'overflow-x',
-                        'overflow-y',
-
-                        'margin',
-                        'padding',
-
-                        'transform',
-                        'zoom',
-                    ],
-                },
-
-                // Display
-                {
-                    'properties': [
-                        'display',
-
-                        // Flexbox only
-                        'flex',
-                        'flex-basis',
-                        'flex-grow',
-                        'flex-shrink',
-                        'flex-flow',
-                        'flex-wrap',
-                        'flex-direction',
-                        'justify-content',
-                        'align-self',
-                        'align-items',
-                        'align-content',
-                        'order',
-
-                        'clear',
-                        'float',
-                        'visibility',
-                        'vertical-align',
-                        'direction',
-
-                        // Table related stuff only
-                        'table-layout',
-                        'empty-cells',
-                    ],
-                },
-
-                // Asthethic
-                {
-                    'properties': [
-                        'list-style',
-                        'border',
-                        'outline',
-
-                        'opacity',
-                        'object-fit',
-                        'object-position',
-                        'clip-path',
-                        'background',
-
-                        'border-radius',
-                        'box-shadow',
-                        'filter',
-                    ],
-                },
-
-                // Text
-                {
-                    'properties': [
-                        'color',
-
-                        'font',
-                        'font-family',
-                        'font-variant',
-                        'font-size',
-                        'font-size-adjust',
-                        'font-kerning',
-                        'font-weight',
-                        'font-stretch',
-                        'font-style',
-                        'font-smoothing',
-
-                        'text-decoration',
-                        'text-underline-position',
-                        'text-transform',
-                        'text-shadow',
-                        'text-overflow',
-                        'text-align',
-                        'text-justify',
-                        'text-indent',
-
-                        'line-height',
-                        'tab-size',
-                        'white-space',
-                        'word-spacing',
-                        'word-wrap',
-                        'overflow-wrap',
-                    ],
-                },
-
-                // Paragraphs and wrapping
-                {
-                    'properties': [
-                        'word-break',
-                        'hyphens',
-                        'orphans',
-                        'widows',
-                    ],
-                },
-
-                // Cursor
-                {
-                    'properties': [
-                        'pointer-events',
-                        'user-select',
-                        'cursor',
-                        'resize',
-                    ],
-                },
-
-                // Animations & transitions
-                {
-                    'properties': [
-                        'animation',
-                        'animation-name',
-                        'animation-play-state',
-                        'animation-direction',
-                        'animation-fill-mode',
-                        'animation-duration',
-                        'animation-delay',
-                        'animation-iteration-count',
-                        'animation-timing-function',
-
-                        'transition',
-                        'transition-property',
-                        'transition-duration',
-                        'transition-delay',
-                        'transition-timing-function',
-                    ],
-                },
-            ],
-            { 'unspecified': 'bottom' },
-        ],
+        'order/properties-order': [order, { 'unspecified': 'bottom' }],
     },
 };
