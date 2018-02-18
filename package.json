@@ -60,6 +60,6 @@
     "jest": "^22.0.0",
     "lint-staged": "^6.0.0",
     "standard-version": "^4.2.0",
-    "stylelint": "^8.2.0"
+    "stylelint": "^9.0.0"
   }
 }
