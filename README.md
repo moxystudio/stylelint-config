@@ -6,8 +6,8 @@
 [npm-url]:https://npmjs.org/package/stylelint-config-moxy
 [npm-image]:http://img.shields.io/npm/v/stylelint-config-moxy.svg
 [downloads-image]:http://img.shields.io/npm/dm/stylelint-config-moxy.svg
-[travis-url]:https://travis-ci.org/moxystudio/stylelint-config
-[travis-image]:http://img.shields.io/travis/moxystudio/stylelint-config/master.svg
+[travis-url]:https://travis-ci.org/moxystudio/stylelint-config-moxy
+[travis-image]:http://img.shields.io/travis/moxystudio/stylelint-config-moxy/master.svg
 [david-dm-url]:https://david-dm.org/moxystudio/stylelint-config
 [david-dm-image]:https://img.shields.io/david/moxystudio/stylelint-config.svg
 [david-dm-dev-url]:https://david-dm.org/moxystudio/stylelint-config?type=dev
