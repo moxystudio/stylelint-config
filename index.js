@@ -2,8 +2,7 @@
 
 module.exports = {
     'extends': [
-        'stylelint-config-suitcss',
-        './rules/overrides',
+        './rules/base',
         './rules/order',
     ],
 };

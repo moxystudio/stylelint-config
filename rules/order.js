@@ -260,14 +260,10 @@ const order = [
 ];
 
 module.exports = {
-    // No need to bring in the plugin because `stylelint-config-suitcss` already includes it
-    // 'plugins': [
-    //     'stylelint-order',
-    // ],
+    'plugins': [
+        'stylelint-order',
+    ],
     'rules': {
-        // Remove alphabetic order enforced by suitcss
-        'order/properties-alphabetical-order': null,
-        // Define our own order
         'order/properties-order': [order, { 'unspecified': 'bottom' }],
     },
 };
