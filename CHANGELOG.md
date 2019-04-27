@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="6.0.0"></a>
+# [6.0.0](https://github.com/moxystudio/stylelint-config/compare/v5.0.0...v6.0.0) (2019-04-27)
+
+
+### Features
+
+* upgrade to stylelint v10 ([5177687](https://github.com/moxystudio/stylelint-config/commit/5177687))
+
+
+### BREAKING CHANGES
+
+* upgrade to stylelint v10
+
+
+
 <a name="5.0.0"></a>
 # [5.0.0](https://github.com/moxystudio/stylelint-config/compare/v4.0.0...v5.0.0) (2018-02-25)
 
