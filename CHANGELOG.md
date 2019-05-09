@@ -1,6 +1,15 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [6.1.0](https://github.com/moxystudio/stylelint-config/compare/v6.0.0...v6.1.0) (2019-05-09)
+
+
+### Features
+
+* lax empty line before rules ([6dca1ec](https://github.com/moxystudio/stylelint-config/commit/6dca1ec))
+
+
 
 <a name="6.0.0"></a>
 # [6.0.0](https://github.com/moxystudio/stylelint-config/compare/v5.0.0...v6.0.0) (2019-04-27)
