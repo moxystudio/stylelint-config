@@ -5,6 +5,7 @@ module.exports = {
         'at-rule-empty-line-before': ['always', {
             'except': ['blockless-after-same-name-blockless', 'inside-block'],
             'ignore': ['after-comment'],
+            'ignoreAtRules': ['nest'],
         }],
         'at-rule-no-vendor-prefix': true,
         'block-closing-brace-newline-after': 'always',
@@ -68,6 +69,7 @@ module.exports = {
         'property-no-vendor-prefix': true,
         'rule-empty-line-before': ['always-multi-line', {
             'except': ['first-nested'],
+            'ignore': ['after-comment'],
         }],
         'selector-combinator-space-after': 'always',
         'selector-combinator-space-before': 'always',

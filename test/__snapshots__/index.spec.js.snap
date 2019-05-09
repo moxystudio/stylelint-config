@@ -52,32 +52,14 @@ Array [
   },
   Object {
     "column": 1,
-    "line": 33,
-    "rule": "rule-empty-line-before",
-    "severity": "error",
-  },
-  Object {
-    "column": 1,
     "line": 36,
     "rule": "comment-empty-line-before",
     "severity": "error",
   },
   Object {
     "column": 1,
-    "line": 38,
-    "rule": "rule-empty-line-before",
-    "severity": "error",
-  },
-  Object {
-    "column": 1,
     "line": 41,
     "rule": "comment-empty-line-before",
-    "severity": "error",
-  },
-  Object {
-    "column": 1,
-    "line": 42,
-    "rule": "rule-empty-line-before",
     "severity": "error",
   },
   Object {
@@ -88,7 +70,7 @@ Array [
   },
   Object {
     "column": 1,
-    "line": 49,
+    "line": 48,
     "rule": "comment-empty-line-before",
     "severity": "error",
   },

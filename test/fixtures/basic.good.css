@@ -46,6 +46,15 @@
     /* Line comment */
     background: red;
 
+    /* Entry and exit of passphrase dots */
+    &:last-child {
+        margin-left: 0;
+    }
+
+    @nest .foo & {
+        background: red;
+    }
+
     /* Line comment 2 */
     /* Line comment 2.1 */
     transition: color 0.2s ease-out;  /* Inline comment */
