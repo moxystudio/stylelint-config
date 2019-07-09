@@ -3,8 +3,8 @@
 module.exports = {
     'rules': {
         'at-rule-empty-line-before': ['always', {
-            'except': ['blockless-after-same-name-blockless', 'inside-block'],
-            'ignore': ['after-comment'],
+            'except': ['blockless-after-same-name-blockless'],
+            'ignore': ['after-comment', 'inside-block'],
             'ignoreAtRules': ['nest'],
         }],
         'at-rule-no-vendor-prefix': true,
