@@ -74,6 +74,12 @@ Array [
     "rule": "comment-empty-line-before",
     "severity": "error",
   },
+  Object {
+    "column": 18,
+    "line": 55,
+    "rule": "length-zero-no-unit",
+    "severity": "error",
+  },
 ]
 `;
 
