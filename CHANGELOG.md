@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.2.1](https://github.com/moxystudio/stylelint-config/compare/v6.2.0...v6.2.1) (2019-07-25)
+
+
+### Bug Fixes
+
+* allow units for 0 values on custom properties ([#52](https://github.com/moxystudio/stylelint-config/issues/52)) ([c2afb67](https://github.com/moxystudio/stylelint-config/commit/c2afb67))
+
+
+
 ## [6.2.0](https://github.com/moxystudio/stylelint-config/compare/v6.1.0...v6.2.0) (2019-07-09)
 
 
