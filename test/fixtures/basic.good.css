@@ -4,6 +4,10 @@
 @mixin foo .foo;
 @mixin bar .foo;
 
+:root {
+    --zero-unit-var: 0px;
+}
+
 .foo {
     @mixin foo;
     display: block;
