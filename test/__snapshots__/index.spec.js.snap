@@ -21,6 +21,12 @@ Array [
     "severity": "error",
   },
   Object {
+    "column": 5,
+    "line": 10,
+    "rule": "scale-unlimited/declaration-strict-value",
+    "severity": "error",
+  },
+  Object {
     "column": 1,
     "line": 14,
     "rule": "rule-empty-line-before",
@@ -30,6 +36,12 @@ Array [
     "column": 5,
     "line": 15,
     "rule": "comment-no-empty",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 16,
+    "rule": "scale-unlimited/declaration-strict-value",
     "severity": "error",
   },
   Object {

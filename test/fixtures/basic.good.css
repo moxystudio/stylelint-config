@@ -6,12 +6,13 @@
 
 :root {
     --zero-unit-var: 0px;
+    --main-color: red;
 }
 
 .foo {
     @mixin foo;
     display: block;
-    color: red;
+    color: var(--main-color);
     font-size: 20px;
     @mixin bar;
 }

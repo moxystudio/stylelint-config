@@ -97,7 +97,7 @@ div {
     filter: blur(5px);
 
     /* text */
-    color: red;
+    color: var(--main-color);
 
     font-family: "Open Sans";
     font: 2em "Open Sans", sans-serif;
