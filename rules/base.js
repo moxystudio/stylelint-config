@@ -1,9 +1,6 @@
 'use strict';
 
 module.exports = {
-    'plugins': [
-        'stylelint-declaration-strict-value',
-    ],
     'rules': {
         'at-rule-empty-line-before': ['always', {
             'except': ['blockless-after-same-name-blockless'],
@@ -76,7 +73,6 @@ module.exports = {
             'except': ['first-nested'],
             'ignore': ['after-comment'],
         }],
-        'scale-unlimited/declaration-strict-value': '/color/',
         'selector-combinator-space-after': 'always',
         'selector-combinator-space-before': 'always',
         'selector-list-comma-newline-after': 'always',
