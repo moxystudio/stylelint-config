@@ -19,7 +19,7 @@ div {
     min-height: 1000px;
     max-height: 50px;
 
-    z-index: 10;
+    z-index: var(--z-index-base);
     overflow: hidden;
     overflow-x: auto;
     overflow-y: auto;
@@ -169,7 +169,7 @@ div {
     color: var(--main-color);
 
     font: 2em "Open Sans", sans-serif;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
     font-variant: small-caps;
     font-variant-alternates: auto;
     font-variant-caps: auto;
@@ -180,7 +180,7 @@ div {
     font-size: 12px;
     font-size-adjust: 0.5;
     font-kerning: auto;
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
     font-stretch: condensed;
     font-style: italic;
     font-smooth: antialized;
