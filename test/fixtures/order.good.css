@@ -19,7 +19,7 @@ div {
     min-height: 1000px;
     max-height: 50px;
 
-    z-index: 10;
+    z-index: var(--z-index-base);
     overflow: hidden;
     overflow-x: auto;
     overflow-y: auto;
@@ -87,7 +87,7 @@ div {
     column-fill: auto;
     column-gap: auto;
     column-rule: auto;
-    column-rule-color: auto;
+    column-rule-color: var(--main-color);
     column-rule-style: auto;
     column-rule-width: auto;
     column-span: auto;
@@ -116,26 +116,26 @@ div {
     border: 1px solid red;
     border-width: auto;
     border-style: auto;
-    border-color: auto;
+    border-color: var(--main-color);
     border-top: auto;
     border-top-width: auto;
     border-top-style: auto;
-    border-top-color: auto;
+    border-top-color: var(--main-color);
     border-left: auto;
     border-left-width: auto;
     border-left-style: auto;
-    border-left-color: auto;
+    border-left-color: var(--main-color);
     border-bottom: auto;
     border-bottom-width: auto;
     border-bottom-style: auto;
-    border-bottom-color: auto;
+    border-bottom-color: var(--main-color);
     border-right: auto;
     border-right-width: auto;
     border-right-style: auto;
-    border-right-color: auto;
+    border-right-color: var(--main-color);
 
     outline: 1px solid red;
-    outline-color: auto;
+    outline-color: var(--main-color);
     outline-width: auto;
     outline-style: auto;
     outline-offset: auto;
@@ -146,7 +146,7 @@ div {
     clip-path: none;
 
     background: #000;
-    background-color: auto;
+    background-color: var(--main-color);
     background-image: auto;
     background-position: auto;
     background-size: auto;
@@ -166,10 +166,10 @@ div {
     filter: blur(5px);
 
     /* text */
-    color: red;
+    color: var(--main-color);
 
     font: 2em "Open Sans", sans-serif;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
     font-variant: small-caps;
     font-variant-alternates: auto;
     font-variant-caps: auto;
@@ -180,7 +180,7 @@ div {
     font-size: 12px;
     font-size-adjust: 0.5;
     font-kerning: auto;
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
     font-stretch: condensed;
     font-style: italic;
     font-smooth: antialized;
@@ -193,7 +193,7 @@ div {
     text-decoration: unline;
     text-decoration-line: auto;
     text-decoration-style: auto;
-    text-decoration-color: auto;
+    text-decoration-color: var(--main-color);
     text-underline-position: under;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px black;
@@ -203,7 +203,7 @@ div {
     text-justify: inter-word;
     text-indent: 40px;
     text-emphasis: auto;
-    text-emphasis-color: auto;
+    text-emphasis-color: var(--main-color);
     text-emphasis-position: auto;
     text-emphasis-style: auto;
     text-orientation: auto;

@@ -6,9 +6,12 @@
 
 .foo {
     @mixin foo;
+    z-index: 0;
     display: block;
     color: red;
+    font-family: "Arial", "Helvetica", sans-serif;
     font-size: 20px;
+    font-weight: 400;
     @mixin bar;
 }
 .bar {
@@ -19,12 +22,15 @@
 @media (width <= 600px) {
 
     .foo {
+        border-color: red;
         font-size: 15px;
     }
 }
 @media (width <= 400px) {
     .foo {
         font-size: 10px;
+        fill: red;
+        stroke: red;
     }
 }
 /* ==========================================================================
