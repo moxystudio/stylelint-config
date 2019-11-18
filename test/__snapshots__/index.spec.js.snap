@@ -63,9 +63,21 @@ Array [
     "severity": "error",
   },
   Object {
-    "column": 9,
+    "column": 5,
     "line": 24,
+    "rule": "rule-empty-line-before",
+    "severity": "error",
+  },
+  Object {
+    "column": 9,
+    "line": 25,
     "rule": "scale-unlimited/declaration-strict-value",
+    "severity": "error",
+  },
+  Object {
+    "column": 1,
+    "line": 29,
+    "rule": "at-rule-empty-line-before",
     "severity": "error",
   },
   Object {
