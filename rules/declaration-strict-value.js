@@ -4,16 +4,22 @@
 
 const properties = [
     '/color/',
+    'fill',
     'font-family',
     'font-weight',
+    'stroke',
     'z-index',
 ];
+
+const options = {
+    'ignoreKeywords': ['currentColor', 'transparent', 'inherit'],
+};
 
 module.exports = {
     'plugins': [
         'stylelint-declaration-strict-value',
     ],
     'rules': {
-        'scale-unlimited/declaration-strict-value': [properties, {}],
+        'scale-unlimited/declaration-strict-value': [properties, options],
     },
 };
