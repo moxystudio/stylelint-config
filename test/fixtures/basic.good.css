@@ -25,13 +25,17 @@
 
 @media (width <= 600px) {
     .foo {
+        border-color: currentColor;
         font-size: 15px;
     }
 }
 
 @media (width <= 400px) {
     .foo {
+        color: color(#fff a(0%));
         font-size: 10px;
+        fill: transparent;
+        stroke: inherit;
     }
 }
 

@@ -145,7 +145,7 @@ div {
     object-position: center;
     clip-path: none;
 
-    background: red;
+    background: #000;
     background-color: var(--main-color);
     background-image: auto;
     background-position: auto;
