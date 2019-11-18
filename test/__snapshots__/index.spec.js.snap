@@ -39,12 +39,6 @@ Array [
     "severity": "error",
   },
   Object {
-    "column": 17,
-    "line": 12,
-    "rule": "declaration-colon-space-after",
-    "severity": "error",
-  },
-  Object {
     "column": 5,
     "line": 14,
     "rule": "scale-unlimited/declaration-strict-value",
