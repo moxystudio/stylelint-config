@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.0.0](https://github.com/moxystudio/stylelint-config/compare/v6.3.0...v7.0.0) (2019-11-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* we now enforce the use of css variables on certain properties
+
+### Features
+
+* add stylelint-declaration-strict-value and rule for color ([f7b0cc0](https://github.com/moxystudio/stylelint-config/commit/f7b0cc0ae4503de3c8cb48ebb7ae7f793d9879b4))
+
 ## [6.3.0](https://github.com/moxystudio/stylelint-config/compare/v6.2.1...v6.3.0) (2019-10-12)
 
 
