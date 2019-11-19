@@ -13,6 +13,7 @@ const properties = [
 
 const options = {
     'ignoreKeywords': ['currentColor', 'transparent', 'inherit'],
+    'disableFix': true,
 };
 
 module.exports = {
