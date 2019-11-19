@@ -20,5 +20,5 @@ files.forEach((file) =>
 
             expect(result).toMatchSnapshot();
         });
-    })
+    }),
 );
