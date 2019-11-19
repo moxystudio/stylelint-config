@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.1.0](https://github.com/moxystudio/stylelint-config/compare/v7.0.1...v7.1.0) (2019-11-19)
+
+
+### Features
+
+* add support for stylelint v12 ([#55](https://github.com/moxystudio/stylelint-config/issues/55)) ([4043fb5](https://github.com/moxystudio/stylelint-config/commit/4043fb5c90eb2fa256aee8ffe2518f09d605e1d5))
+
 ### [7.0.1](https://github.com/moxystudio/stylelint-config/compare/v7.0.0...v7.0.1) (2019-11-19)
 
 
