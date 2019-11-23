@@ -1,13 +1,13 @@
-# stylelint-config-moxy
+# stylelint-config
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url] 
 
 
-[npm-url]:https://npmjs.org/package/stylelint-config-moxy
-[npm-image]:http://img.shields.io/npm/v/stylelint-config-moxy.svg
-[downloads-image]:http://img.shields.io/npm/dm/stylelint-config-moxy.svg
-[travis-url]:https://travis-ci.org/moxystudio/stylelint-config-moxy
-[travis-image]:http://img.shields.io/travis/moxystudio/stylelint-config-moxy/master.svg
+[npm-url]:https://npmjs.org/package/@moxy/stylelint-config
+[npm-image]:http://img.shields.io/npm/v/@moxy/stylelint-config.svg
+[downloads-image]:http://img.shields.io/npm/dm/@moxy/stylelint-config.svg
+[travis-url]:https://travis-ci.org/moxystudio/stylelint-config
+[travis-image]:http://img.shields.io/travis/moxystudio/stylelint-config/master.svg
 [david-dm-url]:https://david-dm.org/moxystudio/stylelint-config
 [david-dm-image]:https://img.shields.io/david/moxystudio/stylelint-config.svg
 [david-dm-dev-url]:https://david-dm.org/moxystudio/stylelint-config?type=dev
@@ -18,7 +18,7 @@ MOXY [stylelint](http://stylelint.org/) configuration to be used across projects
 
 ## Installation
 
-`$ npm install stylelint stylelint-config-moxy --save-dev`
+`$ npm install stylelint @moxy/stylelint-config --save-dev`
 
 
 ## Usage
@@ -27,7 +27,7 @@ Create a `.stylelintrc.json` file with:
 
 ```json
 {
-    "extends": "stylelint-config-moxy"
+    "extends": "@moxy/stylelint-config"
 }
 ```
 
