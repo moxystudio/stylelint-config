@@ -4,10 +4,10 @@
 
 
 [npm-url]:https://npmjs.org/package/@moxy/stylelint-config
-[npm-image]:http://img.shields.io/npm/v/@moxy/stylelint-config.svg
-[downloads-image]:http://img.shields.io/npm/dm/@moxy/stylelint-config.svg
+[npm-image]:https://img.shields.io/npm/v/@moxy/stylelint-config.svg
+[downloads-image]:https://img.shields.io/npm/dm/@moxy/stylelint-config.svg
 [travis-url]:https://travis-ci.org/moxystudio/stylelint-config
-[travis-image]:http://img.shields.io/travis/moxystudio/stylelint-config/master.svg
+[travis-image]:https://img.shields.io/travis/moxystudio/stylelint-config/master.svg
 [david-dm-url]:https://david-dm.org/moxystudio/stylelint-config
 [david-dm-image]:https://img.shields.io/david/moxystudio/stylelint-config.svg
 [david-dm-dev-url]:https://david-dm.org/moxystudio/stylelint-config?type=dev
