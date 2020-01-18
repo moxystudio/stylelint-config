@@ -1,8 +1,8 @@
 {
     "root": true,
     "extends": [
-        "eslint-config-moxy/es9",
-        "eslint-config-moxy/addons/node"
+        "@moxy/eslint-config/es9",
+        "@moxy/eslint-config/addons/node"
     ],
     "rules": {
         "quote-props": [2, "always"]
