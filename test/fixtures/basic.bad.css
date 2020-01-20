@@ -19,6 +19,12 @@
     color: red;
 }
 
+@media (width: 100px) and (width: 60rem) {
+    .foo {
+        font-size: 15px;
+    }
+}
+
 @media (width <= 600px) {
 
     .foo {

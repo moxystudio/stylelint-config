@@ -23,6 +23,13 @@
     @mixin bar;
 }
 
+@media (width: 60em) {
+    .foo {
+        border-color: currentColor;
+        font-size: 15px;
+    }
+}
+
 @media (width <= 600px) {
     .foo {
         border-color: currentColor;
