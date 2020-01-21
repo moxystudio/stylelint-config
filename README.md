@@ -31,6 +31,18 @@ Create a `.stylelintrc.json` file with:
 }
 ```
 
+ℹ️By default, stylelint will run on all files. If your project uses separate CSS files, it's better to only lint `.css` files to avoid unexpected errors. You can do this by adding the tweaking `ignoreFiles`:
+
+```json
+{
+    "extends": "@moxy/stylelint-config",
+    "ignoreFiles": [
+        "!**/*.css"
+    ]
+}
+```
+
+
 ## File naming convention
 
 File names should be hyphenated (lower case with hyphens).
