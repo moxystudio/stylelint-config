@@ -30,6 +30,18 @@
     }
 }
 
+@media (min-width: 65em) and (max-width: 75em) {
+    .foo {
+        display: none;
+    }
+}
+
+@media (min-height: 20em) and (max-height: 30em) {
+    .foo {
+        display: none;
+    }
+}
+
 @media (width <= 600px) {
     .foo {
         border-color: currentColor;
