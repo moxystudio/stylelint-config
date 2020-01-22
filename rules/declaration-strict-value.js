@@ -3,11 +3,8 @@
 // See https://github.com/AndyOGo/stylelint-declaration-strict-value
 
 const properties = [
-    '/color/',
-    'fill',
     'font-family',
     'font-weight',
-    'stroke',
     'z-index',
 ];
 

@@ -27,9 +27,9 @@ Array [
     "severity": "error",
   },
   Object {
-    "column": 5,
+    "column": 12,
     "line": 11,
-    "rule": "scale-unlimited/declaration-strict-value",
+    "rule": "color-named",
     "severity": "error",
   },
   Object {
@@ -57,9 +57,9 @@ Array [
     "severity": "error",
   },
   Object {
-    "column": 5,
+    "column": 12,
     "line": 19,
-    "rule": "scale-unlimited/declaration-strict-value",
+    "rule": "color-named",
     "severity": "error",
   },
   Object {
@@ -69,9 +69,9 @@ Array [
     "severity": "error",
   },
   Object {
-    "column": 9,
+    "column": 23,
     "line": 25,
-    "rule": "scale-unlimited/declaration-strict-value",
+    "rule": "color-named",
     "severity": "error",
   },
   Object {
@@ -81,15 +81,15 @@ Array [
     "severity": "error",
   },
   Object {
-    "column": 9,
+    "column": 15,
     "line": 32,
-    "rule": "scale-unlimited/declaration-strict-value",
+    "rule": "color-named",
     "severity": "error",
   },
   Object {
-    "column": 9,
+    "column": 17,
     "line": 33,
-    "rule": "scale-unlimited/declaration-strict-value",
+    "rule": "color-named",
     "severity": "error",
   },
   Object {
@@ -112,19 +112,31 @@ Array [
   },
   Object {
     "column": 5,
+    "line": 50,
+    "rule": "declaration-property-value-blacklist",
+    "severity": "error",
+  },
+  Object {
+    "column": 30,
     "line": 51,
+    "rule": "color-named",
+    "severity": "error",
+  },
+  Object {
+    "column": 5,
+    "line": 52,
     "rule": "comment-empty-line-before",
     "severity": "error",
   },
   Object {
     "column": 1,
-    "line": 54,
+    "line": 55,
     "rule": "comment-empty-line-before",
     "severity": "error",
   },
   Object {
     "column": 18,
-    "line": 61,
+    "line": 62,
     "rule": "length-zero-no-unit",
     "severity": "error",
   },

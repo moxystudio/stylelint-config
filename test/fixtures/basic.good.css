@@ -32,7 +32,7 @@
 
 @media (width <= 400px) {
     .foo {
-        color: color(#fff a(0%));
+        color: color(var(--main-color) a(0%));
         font-size: 10px;
         fill: transparent;
         stroke: inherit;
@@ -59,7 +59,7 @@
 
 .tags {
     /* Line comment */
-    background: red;
+    background: var(--color-red);
 
     /* Entry and exit of passphrase dots */
     &:last-child {
@@ -67,7 +67,8 @@
     }
 
     @nest .foo & {
-        background: red;
+        background: var(--main-color);
+        box-shadow: 10px 5px 5px var(--color-black);
     }
 
     /* Line comment 2 */

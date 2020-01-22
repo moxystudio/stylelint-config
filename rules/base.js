@@ -17,6 +17,9 @@ module.exports = {
         'block-opening-brace-space-before': 'always',
         'color-hex-case': 'lower',
         'color-hex-length': 'short',
+        'color-named': ['never', {
+            'ignoreProperties': ['/^(--).*/'],
+        }],
         'color-no-invalid-hex': true,
         'comment-empty-line-before': ['always', {
             'except': ['first-nested'],
@@ -38,6 +41,9 @@ module.exports = {
         'declaration-colon-newline-after': 'always-multi-line',
         'declaration-colon-space-after': 'always-single-line',
         'declaration-colon-space-before': 'never',
+        'declaration-property-value-blacklist': {
+            '/^(?!--).*(background|color|fill|stroke|border|shadow|outline).*/': ['/#([a-f0-9]{3,})*/i', '/(rgb|hsl)a?\\(/'],
+        },
         'function-calc-no-unspaced-operator': true,
         'function-comma-newline-after': 'always-multi-line',
         'function-comma-space-after': 'always-single-line',

@@ -16,7 +16,7 @@
 }
 .bar {
     /* */
-    color: red;
+    color: green;
 }
 
 @media (width <= 600px) {
@@ -47,7 +47,8 @@
 /* Tertiary comment block & line/inline comments */
 .tags {
     /* Line comment */
-    background: red;
+    background: rgba(255, 1, 1, 0.5);
+    box-shadow: 10px 5px 5px red;
     /* Line comment 2.1 */
     transition: color 0.2s ease-out;  /* Inline comment */
 }
