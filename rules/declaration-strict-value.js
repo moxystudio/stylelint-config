@@ -11,6 +11,7 @@ const properties = [
 const options = {
     'ignoreKeywords': ['currentColor', 'transparent', 'inherit'],
     'disableFix': true,
+    'severity': 'warning',
 };
 
 module.exports = {
