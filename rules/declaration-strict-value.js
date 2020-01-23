@@ -12,6 +12,7 @@ const options = {
     'ignoreKeywords': ['currentColor', 'transparent', 'inherit'],
     'disableFix': true,
     'severity': 'warning',
+    'message': 'Using plain values directly is not allowed, please use a CSS custom property instead.',
 };
 
 module.exports = {
