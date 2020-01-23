@@ -3,17 +3,16 @@
 // See https://github.com/AndyOGo/stylelint-declaration-strict-value
 
 const properties = [
-    '/color/',
-    'fill',
     'font-family',
     'font-weight',
-    'stroke',
     'z-index',
 ];
 
 const options = {
     'ignoreKeywords': ['currentColor', 'transparent', 'inherit'],
     'disableFix': true,
+    'severity': 'warning',
+    'message': 'Using plain values directly is not allowed, please use a CSS custom property instead.',
 };
 
 module.exports = {

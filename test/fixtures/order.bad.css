@@ -84,17 +84,17 @@ div {
     table-layout: fixed;
 
     /* asthethic */
-    border: 1px solid red;
+    border: 1px solid var(--main-color);
     list-style: none;
-    outline: 1px solid red;
+    outline: 1px solid var(--main-color);
 
     object-fit: contain;
     opacity: 1;
     object-position: center;
     clip-path: none;
-    background: #000;
+    background: inherit;
 
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px var(--main-color);
     border-radius: 5px;
     filter: blur(5px);
 
@@ -116,7 +116,7 @@ div {
     text-underline-position: under;
     text-decoration: unline;
     text-transform: uppercase;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px var(--main-color);
     text-overflow: ellipsis;
     text-align: left;
     text-justify: inter-word;

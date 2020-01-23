@@ -113,7 +113,7 @@ div {
     list-style-position: auto;
     list-style-type: auto;
 
-    border: 1px solid red;
+    border: 1px solid var(--main-color);
     border-width: auto;
     border-style: auto;
     border-color: var(--main-color);
@@ -134,7 +134,7 @@ div {
     border-left-style: auto;
     border-left-color: var(--main-color);
 
-    outline: 1px solid red;
+    outline: 1px solid var(--main-color);
     outline-color: var(--main-color);
     outline-width: auto;
     outline-style: auto;
@@ -145,7 +145,7 @@ div {
     object-position: center;
     clip-path: none;
 
-    background: #000;
+    background: inherit;
     background-color: var(--main-color);
     background-image: auto;
     background-position: auto;
@@ -162,7 +162,7 @@ div {
     border-bottom-right-radius: auto;
     border-bottom-left-radius: auto;
 
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px var(--main-color);
     filter: blur(5px);
 
     /* text */
@@ -196,7 +196,7 @@ div {
     text-decoration-color: var(--main-color);
     text-underline-position: under;
     text-transform: uppercase;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px var(--main-color);
     text-overflow: ellipsis;
     text-align: left;
     text-align-last: auto;
