@@ -66,25 +66,25 @@ Array [
     "column": 20,
     "line": 22,
     "rule": "media-feature-name-value-whitelist",
-    "severity": "error",
+    "severity": "warning",
   },
   Object {
     "column": 43,
     "line": 22,
     "rule": "media-feature-name-value-whitelist",
-    "severity": "error",
+    "severity": "warning",
   },
   Object {
     "column": 21,
     "line": 28,
     "rule": "media-feature-name-value-whitelist",
-    "severity": "error",
+    "severity": "warning",
   },
   Object {
     "column": 45,
     "line": 28,
     "rule": "media-feature-name-value-whitelist",
-    "severity": "error",
+    "severity": "warning",
   },
   Object {
     "column": 5,
@@ -138,7 +138,7 @@ Array [
     "column": 5,
     "line": 62,
     "rule": "declaration-property-value-blacklist",
-    "severity": "error",
+    "severity": "warning",
   },
   Object {
     "column": 30,
