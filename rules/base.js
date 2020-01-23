@@ -56,7 +56,7 @@ module.exports = {
         'media-feature-colon-space-before': 'never',
         'media-feature-name-no-vendor-prefix': true,
         'media-feature-name-value-whitelist': {
-            '/(.+)?(width|height)/': ['/\\dem$/'],
+            '/\\b(width|height)$/': ['/\\dem$/'],
         },
         'media-feature-parentheses-space-inside': 'never',
         'media-feature-range-operator-space-after': 'always',
