@@ -18,7 +18,7 @@ module.exports = {
         'color-hex-case': 'lower',
         'color-hex-length': 'short',
         'color-named': ['never', {
-            'ignoreProperties': ['/^(--).*/'],
+            'ignoreProperties': ['/^--\\w/'],
         }],
         'color-no-invalid-hex': true,
         'comment-empty-line-before': ['always', {
@@ -42,7 +42,7 @@ module.exports = {
         'declaration-colon-space-after': 'always-single-line',
         'declaration-colon-space-before': 'never',
         'declaration-property-value-blacklist': {
-            '/^(?!--).*(background|color|fill|stroke|border|shadow|outline).*/': ['/#([a-f0-9]{3,})*/i', '/(rgb|hsl)a?\\(/'],
+            '/^(?!--).*(background|color|fill|stroke|border|text-shadow|box-shadow|outline)\\b/': ['/#([a-f0-9]{3,})*/i', '/(rgb|hsl)a?\\(/'],
         },
         'function-calc-no-unspaced-operator': true,
         'function-comma-newline-after': 'always-multi-line',
