@@ -19,6 +19,18 @@
     color: red;
 }
 
+@media (min-width: 100px) and (max-width: 60rem) {
+    .foo {
+        font-size: 15px;
+    }
+}
+
+@media (min-height: 60rem) and (max-height: 100px) {
+    .foo {
+        font-size: 15px;
+    }
+}
+
 @media (width <= 600px) {
 
     .foo {

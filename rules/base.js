@@ -55,6 +55,9 @@ module.exports = {
         'media-feature-colon-space-after': 'always',
         'media-feature-colon-space-before': 'never',
         'media-feature-name-no-vendor-prefix': true,
+        'media-feature-name-value-whitelist': {
+            '/\\b(width|height)$/': ['/\\dem$/'],
+        },
         'media-feature-parentheses-space-inside': 'never',
         'media-feature-range-operator-space-after': 'always',
         'media-feature-range-operator-space-before': 'always',
