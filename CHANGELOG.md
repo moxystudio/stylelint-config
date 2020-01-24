@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [8.1.0](https://github.com/moxystudio/stylelint-config/compare/v8.0.0...v8.1.0) (2020-01-24)
+
+
+### Features
+
+* improve custom messages and blacklist absolute units ([#62](https://github.com/moxystudio/stylelint-config/issues/62)) ([8b8bdf2](https://github.com/moxystudio/stylelint-config/commit/8b8bdf2d6aaf452c659a3b7f9fa957a829cc9b8c))
+
 ## [8.0.0](https://github.com/moxystudio/stylelint-config/compare/v7.2.0...v8.0.0) (2020-01-24)
 
 
