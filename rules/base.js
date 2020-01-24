@@ -20,7 +20,7 @@ module.exports = {
         'color-named': ['never', {
             'ignoreProperties': ['/^--\\w/'],
             'severity': 'warning',
-            'message': 'Using named colors is not allowed, please use a CSS custom property instead.',
+            'message': 'Using named colors is not recommended, please consider using a CSS custom property instead.',
         }],
         'color-no-invalid-hex': true,
         'comment-empty-line-before': ['always', {
@@ -48,7 +48,7 @@ module.exports = {
         },
         {
             'severity': 'warning',
-            'message': 'Using color values directly is not allowed, please use a CSS custom property instead.',
+            'message': 'Using color values directly is not recommended, please consider using a CSS custom property instead.',
         }],
         'function-calc-no-unspaced-operator': true,
         'function-comma-newline-after': 'always-multi-line',
@@ -72,7 +72,7 @@ module.exports = {
         },
         {
             'severity': 'warning',
-            'message': 'Please use em units inside media queries.',
+            'message': 'Using units other than em is not recommended. You can understand why by reading: https://zellwk.com/blog/media-query-units/',
         }],
         'media-feature-parentheses-space-inside': 'never',
         'media-feature-range-operator-space-after': 'always',
@@ -101,6 +101,7 @@ module.exports = {
         'string-quotes': 'double',
         'unit-blacklist': [['px', 'pt', 'pc', 'in', 'cm', 'mm'], {
             'severity': 'warning',
+            'message': 'Using absolute units is not recommended. Consider using relative units: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#Relative_length_units',
         }],
         'value-list-comma-newline-after': 'always-multi-line',
         'value-list-comma-space-after': 'always-single-line',

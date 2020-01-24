@@ -9,10 +9,10 @@ const properties = [
 ];
 
 const options = {
-    'ignoreKeywords': ['inherit', 'initial', 'unset'],
+    'ignoreKeywords': ['auto', 'inherit', 'initial', 'unset'],
     'disableFix': true,
     'severity': 'warning',
-    'message': 'Using plain values directly is not allowed, please use a CSS custom property instead.',
+    'message': 'Using plain values directly is not recommended, please consider using a CSS custom property instead.',
 };
 
 module.exports = {
