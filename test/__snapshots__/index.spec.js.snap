@@ -39,6 +39,12 @@ Array [
     "severity": "warning",
   },
   Object {
+    "column": 16,
+    "line": 13,
+    "rule": "unit-blacklist",
+    "severity": "warning",
+  },
+  Object {
     "column": 5,
     "line": 14,
     "rule": "scale-unlimited/declaration-strict-value",
@@ -69,9 +75,21 @@ Array [
     "severity": "warning",
   },
   Object {
+    "column": 20,
+    "line": 22,
+    "rule": "unit-blacklist",
+    "severity": "warning",
+  },
+  Object {
     "column": 43,
     "line": 22,
     "rule": "media-feature-name-value-whitelist",
+    "severity": "warning",
+  },
+  Object {
+    "column": 20,
+    "line": 24,
+    "rule": "unit-blacklist",
     "severity": "warning",
   },
   Object {
@@ -87,6 +105,24 @@ Array [
     "severity": "warning",
   },
   Object {
+    "column": 45,
+    "line": 28,
+    "rule": "unit-blacklist",
+    "severity": "warning",
+  },
+  Object {
+    "column": 20,
+    "line": 30,
+    "rule": "unit-blacklist",
+    "severity": "warning",
+  },
+  Object {
+    "column": 18,
+    "line": 34,
+    "rule": "unit-blacklist",
+    "severity": "warning",
+  },
+  Object {
     "column": 5,
     "line": 36,
     "rule": "rule-empty-line-before",
@@ -99,10 +135,28 @@ Array [
     "severity": "warning",
   },
   Object {
+    "column": 20,
+    "line": 38,
+    "rule": "unit-blacklist",
+    "severity": "warning",
+  },
+  Object {
     "column": 1,
     "line": 41,
     "rule": "at-rule-empty-line-before",
     "severity": "error",
+  },
+  Object {
+    "column": 18,
+    "line": 41,
+    "rule": "unit-blacklist",
+    "severity": "warning",
+  },
+  Object {
+    "column": 20,
+    "line": 43,
+    "rule": "unit-blacklist",
+    "severity": "warning",
   },
   Object {
     "column": 15,
@@ -123,10 +177,22 @@ Array [
     "severity": "error",
   },
   Object {
+    "column": 16,
+    "line": 52,
+    "rule": "unit-blacklist",
+    "severity": "warning",
+  },
+  Object {
     "column": 1,
     "line": 54,
     "rule": "comment-empty-line-before",
     "severity": "error",
+  },
+  Object {
+    "column": 16,
+    "line": 57,
+    "rule": "unit-blacklist",
+    "severity": "warning",
   },
   Object {
     "column": 1,
@@ -138,6 +204,24 @@ Array [
     "column": 5,
     "line": 62,
     "rule": "declaration-property-value-blacklist",
+    "severity": "warning",
+  },
+  Object {
+    "column": 17,
+    "line": 63,
+    "rule": "unit-blacklist",
+    "severity": "warning",
+  },
+  Object {
+    "column": 22,
+    "line": 63,
+    "rule": "unit-blacklist",
+    "severity": "warning",
+  },
+  Object {
+    "column": 26,
+    "line": 63,
+    "rule": "unit-blacklist",
     "severity": "warning",
   },
   Object {
@@ -157,6 +241,12 @@ Array [
     "line": 67,
     "rule": "comment-empty-line-before",
     "severity": "error",
+  },
+  Object {
+    "column": 17,
+    "line": 74,
+    "rule": "unit-blacklist",
+    "severity": "warning",
   },
   Object {
     "column": 18,

@@ -5,7 +5,7 @@
 @mixin bar .foo;
 
 :root {
-    --zero-unit-var: 0px;
+    --zero-unit-var: 0;
     --main-color: red;
     --font-family: "Arial", "Helvetica", sans-serif;
     --font-weight-regular: 400;
@@ -18,7 +18,7 @@
     display: block;
     color: var(--main-color);
     font-family: var(--font-family);
-    font-size: 20px;
+    font-size: 2.5em;
     font-weight: var(--font-weight-regular);
     @mixin bar;
 }
@@ -26,7 +26,7 @@
 @media (width: 60em) {
     .foo {
         border-color: currentColor;
-        font-size: 15px;
+        font-size: 2em;
     }
 }
 
@@ -42,17 +42,17 @@
     }
 }
 
-@media (width <= 600px) {
+@media (width <= 60em) {
     .foo {
         border-color: currentColor;
-        font-size: 15px;
+        font-size: 2em;
     }
 }
 
-@media (width <= 400px) {
+@media (width <= 40em) {
     .foo {
         color: color(var(--main-color) a(0%));
-        font-size: 10px;
+        font-size: 1em;
         fill: transparent;
         stroke: inherit;
     }
@@ -64,14 +64,13 @@
 
 .title {
     font-size: 1em;
-    font-size: 20px;
 }
 
 /* Secondary comment block
    ============================================= */
 
 .description {
-    font-size: 15px;
+    font-size: 1.5em;
 }
 
 /* Tertiary comment block & line/inline comments */
@@ -87,7 +86,7 @@
 
     @nest .foo & {
         background: var(--main-color);
-        box-shadow: 10px 5px 5px var(--color-black);
+        box-shadow: 1em 0.5em 0.5em var(--color-black);
     }
 
     /* Line comment 2 */
