@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [8.0.0](https://github.com/moxystudio/stylelint-config/compare/v7.2.0...v8.0.0) (2020-01-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* changed order for margin, padding and border directions
+
+### Features
+
+* enforce use of variables for colors (hex, rgb, hsl and named) ([#58](https://github.com/moxystudio/stylelint-config/issues/58)) ([5a93a92](https://github.com/moxystudio/stylelint-config/commit/5a93a926d9a77e0295de247adb3d8268b065771f))
+* promote use of em instead of rem and px in media queries ([#57](https://github.com/moxystudio/stylelint-config/issues/57)) ([7f9deab](https://github.com/moxystudio/stylelint-config/commit/7f9deab944a23c45951bc3a17816219d6b158d85))
+
+
+### Bug Fixes
+
+* change directions order for margin, padding and border ([#59](https://github.com/moxystudio/stylelint-config/issues/59)) ([bbbf7d3](https://github.com/moxystudio/stylelint-config/commit/bbbf7d33c09f809d7cc2b00671f37d74679abbc6))
+
 ## [7.2.0](https://github.com/moxystudio/stylelint-config/compare/v7.1.0...v7.2.0) (2020-01-18)
 
 
