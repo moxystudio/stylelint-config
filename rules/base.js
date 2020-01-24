@@ -20,7 +20,7 @@ module.exports = {
         'color-named': ['never', {
             'ignoreProperties': ['/^--\\w/'],
             'severity': 'warning',
-            'message': 'Using plain values directly is not allowed, please use a CSS custom property instead.',
+            'message': 'Using named colors is not allowed, please use a CSS custom property instead.',
         }],
         'color-no-invalid-hex': true,
         'comment-empty-line-before': ['always', {
@@ -48,7 +48,7 @@ module.exports = {
         },
         {
             'severity': 'warning',
-            'message': 'Using plain values directly is not allowed, please use a CSS custom property instead.',
+            'message': 'Using color values directly is not allowed, please use a CSS custom property instead.',
         }],
         'function-calc-no-unspaced-operator': true,
         'function-comma-newline-after': 'always-multi-line',
@@ -72,7 +72,7 @@ module.exports = {
         },
         {
             'severity': 'warning',
-            'message': 'Using plain values directly is not allowed, please use a CSS custom property instead.',
+            'message': 'Please use em units inside media queries.',
         }],
         'media-feature-parentheses-space-inside': 'never',
         'media-feature-range-operator-space-after': 'always',
