@@ -99,6 +99,9 @@ module.exports = {
         'selector-no-vendor-prefix': true,
         'selector-pseudo-element-colon-notation': 'double',
         'string-quotes': 'double',
+        'unit-blacklist': [['px', 'pt', 'pc', 'in', 'cm', 'mm'], {
+            'severity': 'warning',
+        }],
         'value-list-comma-newline-after': 'always-multi-line',
         'value-list-comma-space-after': 'always-single-line',
         'value-list-comma-space-before': 'never',
