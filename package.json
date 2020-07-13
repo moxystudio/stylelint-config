@@ -61,7 +61,7 @@
     "husky": "^4.0.10",
     "jest": "^24.5.0",
     "lint-staged": "^9.4.2",
-    "standard-version": "^7.0.0",
+    "standard-version": "^8.0.1",
     "stylelint": "^13.0.0"
   }
 }
