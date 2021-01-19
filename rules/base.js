@@ -43,7 +43,7 @@ module.exports = {
         'declaration-colon-newline-after': 'always-multi-line',
         'declaration-colon-space-after': 'always-single-line',
         'declaration-colon-space-before': 'never',
-        'declaration-property-value-blacklist': [{
+        'declaration-property-value-disallowed-list': [{
             '/^(?!--).*(background|color|fill|stroke|border|text-shadow|box-shadow|outline)\\b/': ['/#([a-f0-9]{3,})*/i', '/(rgb|hsl)a?\\(/'],
         },
         {
@@ -67,7 +67,7 @@ module.exports = {
         'media-feature-colon-space-after': 'always',
         'media-feature-colon-space-before': 'never',
         'media-feature-name-no-vendor-prefix': true,
-        'media-feature-name-value-whitelist': [{
+        'media-feature-name-value-allowed-list': [{
             '/\\b(width|height)$/': ['/\\dem$/'],
         },
         {
@@ -99,7 +99,7 @@ module.exports = {
         'selector-no-vendor-prefix': true,
         'selector-pseudo-element-colon-notation': 'double',
         'string-quotes': 'double',
-        'unit-blacklist': [['px', 'pt', 'pc', 'in', 'cm', 'mm'], {
+        'unit-disallowed-list': [['px', 'pt', 'pc', 'in', 'cm', 'mm'], {
             'severity': 'warning',
             'message': 'Using absolute units is not recommended. Consider using relative units: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#Relative_length_units',
         }],

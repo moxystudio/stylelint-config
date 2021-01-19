@@ -41,7 +41,7 @@ Array [
   Object {
     "column": 16,
     "line": 13,
-    "rule": "unit-blacklist",
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {
@@ -71,55 +71,61 @@ Array [
   Object {
     "column": 20,
     "line": 22,
-    "rule": "media-feature-name-value-whitelist",
+    "rule": "media-feature-name-value-allowed-list",
     "severity": "warning",
   },
   Object {
     "column": 20,
     "line": 22,
-    "rule": "unit-blacklist",
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {
     "column": 43,
     "line": 22,
-    "rule": "media-feature-name-value-whitelist",
+    "rule": "media-feature-name-value-allowed-list",
     "severity": "warning",
   },
   Object {
     "column": 20,
     "line": 24,
-    "rule": "unit-blacklist",
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {
     "column": 21,
     "line": 28,
-    "rule": "media-feature-name-value-whitelist",
+    "rule": "media-feature-name-value-allowed-list",
     "severity": "warning",
   },
   Object {
     "column": 45,
     "line": 28,
-    "rule": "media-feature-name-value-whitelist",
+    "rule": "media-feature-name-value-allowed-list",
     "severity": "warning",
   },
   Object {
     "column": 45,
     "line": 28,
-    "rule": "unit-blacklist",
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {
     "column": 20,
     "line": 30,
-    "rule": "unit-blacklist",
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {
     "column": 18,
     "line": 34,
-    "rule": "unit-blacklist",
+    "rule": "media-feature-name-value-allowed-list",
+    "severity": "warning",
+  },
+  Object {
+    "column": 18,
+    "line": 34,
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {
@@ -137,7 +143,7 @@ Array [
   Object {
     "column": 20,
     "line": 38,
-    "rule": "unit-blacklist",
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {
@@ -149,13 +155,19 @@ Array [
   Object {
     "column": 18,
     "line": 41,
-    "rule": "unit-blacklist",
+    "rule": "media-feature-name-value-allowed-list",
+    "severity": "warning",
+  },
+  Object {
+    "column": 18,
+    "line": 41,
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {
     "column": 20,
     "line": 43,
-    "rule": "unit-blacklist",
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {
@@ -179,7 +191,7 @@ Array [
   Object {
     "column": 16,
     "line": 52,
-    "rule": "unit-blacklist",
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {
@@ -191,7 +203,7 @@ Array [
   Object {
     "column": 16,
     "line": 57,
-    "rule": "unit-blacklist",
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {
@@ -203,25 +215,25 @@ Array [
   Object {
     "column": 5,
     "line": 62,
-    "rule": "declaration-property-value-blacklist",
+    "rule": "declaration-property-value-disallowed-list",
     "severity": "warning",
   },
   Object {
     "column": 17,
     "line": 63,
-    "rule": "unit-blacklist",
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {
     "column": 22,
     "line": 63,
-    "rule": "unit-blacklist",
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {
     "column": 26,
     "line": 63,
-    "rule": "unit-blacklist",
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {
@@ -245,7 +257,7 @@ Array [
   Object {
     "column": 17,
     "line": 74,
-    "rule": "unit-blacklist",
+    "rule": "unit-disallowed-list",
     "severity": "warning",
   },
   Object {

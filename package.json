@@ -45,23 +45,24 @@
     ]
   },
   "peerDependencies": {
-    "stylelint": ">=10 <=13"
+    "stylelint": ">= 13.7.0"
   },
   "dependencies": {
     "stylelint-declaration-strict-value": "^1.1.8",
     "stylelint-order": "^4.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-conventional": "^8.2.0",
-    "@moxy/eslint-config": "^10.1.0",
-    "@moxy/jest-config": "^1.2.0",
-    "eslint": "^6.5.1",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@moxy/eslint-config-base": "^13.0.3",
+    "@moxy/eslint-config-jest": "^13.0.3",
+    "@moxy/jest-config-base": "^5.0.0",
+    "eslint": "^7.0.0",
     "glob": "^7.1.2",
     "husky": "^4.0.10",
-    "jest": "^24.5.0",
-    "lint-staged": "^9.4.2",
-    "standard-version": "^7.0.0",
+    "jest": "^26.0.0",
+    "lint-staged": "^10.0.0",
+    "standard-version": "^9.0.0",
     "stylelint": "^13.0.0"
   }
 }
