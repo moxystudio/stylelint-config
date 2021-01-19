@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [9.0.0](https://github.com/moxystudio/stylelint-config/compare/v8.1.0...v9.0.0) (2021-01-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* stylelint v13.7 or higher is now required
+
+### Features
+
+* fix deprecated rules ([7ded1e4](https://github.com/moxystudio/stylelint-config/commit/7ded1e49af7fbdbc71ae81c3cf462e5fce38e824))
+
 ## [8.1.0](https://github.com/moxystudio/stylelint-config/compare/v8.0.0...v8.1.0) (2020-01-24)
 
 
