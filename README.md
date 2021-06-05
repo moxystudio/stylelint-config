@@ -1,13 +1,13 @@
 # stylelint-config
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url] 
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][build-status-image]][build-status-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
 
 
 [npm-url]:https://npmjs.org/package/@moxy/stylelint-config
 [npm-image]:https://img.shields.io/npm/v/@moxy/stylelint-config.svg
 [downloads-image]:https://img.shields.io/npm/dm/@moxy/stylelint-config.svg
-[travis-url]:https://travis-ci.org/moxystudio/stylelint-config
-[travis-image]:https://img.shields.io/travis/moxystudio/stylelint-config/master.svg
+[build-status-url]:https://github.com/moxystudio/stylelint-config/actions
+[build-status-image]:https://img.shields.io/github/workflow/status/moxystudio/stylelint-config/Node%20CI/master
 [david-dm-url]:https://david-dm.org/moxystudio/stylelint-config
 [david-dm-image]:https://img.shields.io/david/moxystudio/stylelint-config.svg
 [david-dm-dev-url]:https://david-dm.org/moxystudio/stylelint-config?type=dev
@@ -18,8 +18,9 @@ MOXY [stylelint](http://stylelint.org/) configuration to be used across projects
 
 ## Installation
 
-`$ npm install stylelint @moxy/stylelint-config --save-dev`
-
+```ssh
+$ npm install stylelint @moxy/stylelint-config --save-dev
+```
 
 ## Usage
 
@@ -82,9 +83,10 @@ If a CSS file is strictly associated with a JS file, it should follow the name o
 
 ## Tests
 
-`$ npm test`   
-`$ npm test -- --watch` during development
-
+```sh
+$ npm test
+$ npm test -- --watch # during development
+```
 
 ## License
 
