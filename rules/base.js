@@ -43,13 +43,18 @@ module.exports = {
         'declaration-colon-newline-after': 'always-multi-line',
         'declaration-colon-space-after': 'always-single-line',
         'declaration-colon-space-before': 'never',
-        'declaration-property-value-disallowed-list': [{
-            '/^(?!--).*(background|color|fill|stroke|border|text-shadow|box-shadow|outline)\\b/': ['/#([a-f0-9]{3,})*/i', '/(rgb|hsl)a?\\(/'],
-        },
-        {
-            'severity': 'warning',
-            'message': 'Using color values directly is not recommended, please consider using a CSS custom property instead.',
-        }],
+        'declaration-property-value-disallowed-list': [
+            {
+                '/^(?!--).*(background|color|fill|stroke|border|text-shadow|box-shadow|outline)\\b/': [
+                    '/#([a-f0-9]{3,})*/i',
+                    '/(rgb|hsl)a?\\((?!var\\()/', // Allow the use of rgba(var(--color-foo-rgb), 0.3)
+                ],
+            },
+            {
+                'severity': 'warning',
+                'message': 'Using color values directly is not recommended, please consider using a CSS custom property instead.',
+            },
+        ],
         'function-calc-no-unspaced-operator': true,
         'function-comma-newline-after': 'always-multi-line',
         'function-comma-space-after': 'always-single-line',

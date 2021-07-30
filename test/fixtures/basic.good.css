@@ -7,6 +7,7 @@
 :root {
     --zero-unit-var: 0;
     --main-color: red;
+    --main-color-rgb: 255, 0, 0;
     --font-family: "Arial", "Helvetica", sans-serif;
     --font-weight-regular: 400;
     --z-index-base: 0;
@@ -26,6 +27,7 @@
 @media (width: 60em) {
     .foo {
         border-color: currentColor;
+        color: rgba(var(--main-color-rgb), 0.8);
         font-size: 2em;
     }
 }
