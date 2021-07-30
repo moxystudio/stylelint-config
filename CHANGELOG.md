@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.0.1](https://github.com/moxystudio/stylelint-config/compare/v9.0.0...v9.0.1) (2021-07-30)
+
+
+### Bug Fixes
+
+* allow usage of css vars inside rgb(a) and hsl(a) ([e28656d](https://github.com/moxystudio/stylelint-config/commit/e28656d5fcda885b0ab404ef6237958165e0c9e6))
+
 ## [9.0.0](https://github.com/moxystudio/stylelint-config/compare/v8.1.0...v9.0.0) (2021-01-19)
 
 
