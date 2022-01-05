@@ -45,11 +45,11 @@
     ]
   },
   "peerDependencies": {
-    "stylelint": ">= 13.7.0"
+    "stylelint": ">= 14.0.0"
   },
   "dependencies": {
-    "stylelint-declaration-strict-value": "^1.1.8",
-    "stylelint-order": "^4.0.0"
+    "stylelint-declaration-strict-value": "^1.8.0",
+    "stylelint-order": "^5.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
@@ -63,6 +63,6 @@
     "jest": "^26.0.0",
     "lint-staged": "^11.0.0",
     "standard-version": "^9.0.0",
-    "stylelint": "^13.0.0"
+    "stylelint": "^14.0.0"
   }
 }
