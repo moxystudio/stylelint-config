@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [10.0.1](https://github.com/moxystudio/stylelint-config/compare/v10.0.0...v10.0.1) (2023-01-13)
+
+
+### Bug Fixes
+
+* remove disableFix on declaration strict value ([#77](https://github.com/moxystudio/stylelint-config/issues/77)) ([054e475](https://github.com/moxystudio/stylelint-config/commit/054e475c3627dfb8a1e6a61c97a9c77a3cd44225))
+
 ## [10.0.0](https://github.com/moxystudio/stylelint-config/compare/v9.0.1...v10.0.0) (2022-01-05)
 
 
